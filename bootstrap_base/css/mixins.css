@@ -1,0 +1,81 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/mixins\.less}line{font-family:\000034}}
+.push-text {
+  text-indent: -9999px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/mixins\.less}line{font-family:\000039}}
+.hide {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/mixins\.less}line{font-family:\0000312}}
+.marginResetLeft {
+  margin-left: 0 !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/mixins\.less}line{font-family:\0000315}}
+.floatLeft {
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/mixins\.less}line{font-family:\0000318}}
+.floatRight {
+  float: right;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/mixins\.less}line{font-family:\0000321}}
+.paddingBlock {
+  padding: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/mixins\.less}line{font-family:\0000324}}
+.paddingNoTop {
+  padding: 0 20px 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/mixins\.less}line{font-family:\0000327}}
+.marginBottom {
+  margin-bottom: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/mixins\.less}line{font-family:\0000331}}
+.drop-shadow .panels-ipe-portlet-content {
+  position: relative;
+  float: left;
+  width: 40%;
+  padding: 1em;
+  margin: 2em 10px 4em;
+  background: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/mixins\.less}line{font-family:\0000340}}
+.drop-shadow .panels-ipe-portlet-content:before,
+.drop-shadow .panels-ipe-portlet-content:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/mixins\.less}line{font-family:\0000347}}
+.lifted .panels-ipe-portlet-content {
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/mixins\.less}line{font-family:\0000352}}
+.lifted .panels-ipe-portlet-content:after {
+  bottom: 15px;
+  left: 10px;
+  width: 50%;
+  height: 20%;
+  max-width: 300px;
+  -webkit-box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
+  box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
+  -webkit-transform: rotate(-3deg);
+  -moz-transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+  -o-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/mixins\.less}line{font-family:\0000368}}
+.lifted .panels-ipe-portlet-content:after {
+  right: 10px;
+  left: auto;
+  -webkit-transform: rotate(3deg);
+  -moz-transform: rotate(3deg);
+  -ms-transform: rotate(3deg);
+  -o-transform: rotate(3deg);
+  transform: rotate(3deg);
+}

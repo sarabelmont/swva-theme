@@ -1,0 +1,216 @@
+// SWVA
+// Insert your styling here.
+
+// Top Nav Links
+.navbar .top-navbar-inner .nav > li  {
+  background-color: lighten(@topNavBackground, 25%);
+  color: @navbarLinkColor;
+  height: @topNavHeight;
+}
+
+.navbar .top-navbar-inner .nav > li > a {
+  color: @navbarLinkColor;
+}
+.navbar .top-navbar-inner .nav > li.swva {
+	background-color: lighten(@topNavBackground, 10%);
+}
+.navbar .top-navbar-inner .nav > li.rtm {
+	background-color: lighten(@topNavBackground, 25%);
+}
+.navbar .top-navbar-inner .nav > li.tcr {
+	background-color: lighten(@topNavBackground, 10%);
+}
+.btn {
+	font-family: @gothamFamily;
+	font-size: .875em;
+}
+a.btn-primary,
+.btn-primary {
+	.buttonBackground(@blueBright, @blueLight, @white, 0 1px 1px rgba(0,0,0,.25));
+	.border-radius(10px);
+	padding: 3px, 15px;
+	font-size: 14px;
+	a {
+		color: @white;
+	}
+}
+a.btn-secondary,
+.btn-secondary {
+	.buttonBackground(@blue, @blueDark, @grayLighter, 0 1px 1px rgba(0,0,0,.25));
+	.border-radius(10px);
+	padding: 3px, 15px;
+	font-size: 14px;
+	
+	a {
+		color: @white;
+	}
+}
+a.btn-secondary-alt,
+.btn-secondary-alt {
+	.buttonBackground(@green, @greenDark, @grayLighter, 0 1px 1px rgba(0,0,0,.25));
+	.border-radius(10px);
+	padding: 3px, 15px;
+	font-size: 14px;
+	a {
+		color: @white;
+	}
+}
+a.btn-disabled,
+.btn-disabled {
+	.buttonBackground(@gray, @grayLight, @grayDark, 0 1px 1px rgba(255,255,255,.75));
+	.border-radius(10px);
+	padding: 3px, 15px;
+	font-size: 14px;
+}
+.more-link a {
+	.btn;
+	.btn-primary;
+	font-size: 1.1em;
+}
+
+//SECONDARY MENUS
+.secondary-menu {
+	background-color: @greenDark;
+	color: @white;
+	font-family: @gothamFamily;
+	font-size: .75em;
+	text-transform: uppercase;
+	margin-bottom: 60px;
+	
+	ul li.collapsed, ul li.expanded, ul li.leaf {
+	}
+	
+	ul li.leaf {
+	}
+	ul li.first.leaf {
+	}
+	ul li.last.leaf {
+	}
+		
+	.nav > li > a {
+		color: @white;
+		font-family: @gothamFamily;
+		text-shadow: 0 1px 2px rgba(0,0,0,.5);
+		padding: 10px 15px;
+	}
+	.nav > li > a:hover,
+	.nav > li > a:focus {
+		background-color: @green;
+	}
+	.nav > li > a.active {
+		background-color: fade(@green, 50%);
+		text-shadow: 0;
+	}
+}
+h4.menu-title {
+	background-color: @blueLighter;
+	color: @white;
+	font-size: .9em;
+	text-transform: uppercase;
+	font-weight: normal;
+	padding: 20px 20px 15px;
+}
+
+
+// MAP LAYER BUTTONS
+#edit-overlays .form-item input {
+	font-family: @gothamFamily;
+	color: @white;
+}
+	
+
+.form-item-overlays-swva-map-layers-swva-arts-culture-venues,
+.form-item-overlays-communties-communities,
+.form-item-overlays-swva-map-layers-swva-outdoors-venues,
+.form-item-overlays-rtm-members-layers-swva-homegrown,
+.form-item-overlays-swva-map-layers-swva-history-venues,
+.form-item-overlays-swva-map-swva-music-venues,
+.form-item-overlays-events-layers-swva-events-all,
+.form-item-overlays-flag-favorites-tab-openlayers-1
+ {
+	 .btn;
+	    float:left;
+	    width:100%;
+		text-align:left;
+	    display:block;
+		padding: 6px 10px 5px;
+		margin: 4px 0;
+	    .border-radius(5px);
+		.box-shadow(@boxShadow);
+		text-shadow: 0 1px 1px rgba(0,0,0,.5);
+		
+		label {
+			font-size: 12px;
+		}
+}
+
+.form-item-overlays-swva-map-layers-swva-arts-culture-venues {
+	#gradient > .vertical(#a0c3c4, #8caaab);
+}
+.form-item-overlays-swva-map-layers-swva-arts-culture-venues:hover,
+.form-item-overlays-swva-map-layers-swva-arts-culture-venues:focus {
+	background-color: #a0c3c4;
+}
+
+.form-item-overlays-communties-communities {
+	#gradient > .vertical(#c0c0a4, #a6a68d);
+}
+.form-item-overlays-communties-communities:hover,
+.form-item-overlays-communties-communities:focus {
+	background-color: #c0c0a4;
+}
+
+.form-item-overlays-swva-map-layers-swva-outdoors-venues {
+	#gradient > .vertical(#79ab67, #679147);
+}
+.form-item-overlays-swva-map-layers-swva-outdoors-venues:hover,
+.form-item-overlays-swva-map-layers-swva-outdoors-venues:focus {
+	background-color: #79ab67;
+}
+
+.form-item-overlays-rtm-members-layers-swva-homegrown {
+	#gradient > .vertical(#678faa, #597b91);
+}
+.form-item-overlays-rtm-members-layers-swva-homegrown:hover,
+.form-item-overlays-rtm-members-layers-swva-homegrown:focus {
+	background-color: #678faa;
+}
+.form-item-overlays-swva-map-layers-swva-history-venues {
+	#gradient > .vertical(#8e816f, #756b5b);
+}
+.form-item-overlays-swva-map-layers-swva-history-venues:hover,
+.form-item-overlays-swva-map-layers-swva-history-venues:focus {
+	background-color: #8e816f;
+}
+
+.form-item-overlays-swva-map-swva-music-venues {
+	#gradient > .vertical(#c19360, #a88154);
+}
+.form-item-overlays-swva-map-swva-music-venues:hover,
+.form-item-overlays-swva-map-swva-music-venues:focus {
+	background-color: #c19360;
+}
+
+.form-item-overlays-events-layers-swva-events-all {
+	#gradient > .vertical(#556f1e, #435717);
+}
+.form-item-overlays-events-layers-swva-events-all:hover,
+.form-item-overlays-events-layers-swva-events-all:focus {
+	background-color: #556f1e;
+}
+
+.form-item-overlays-flag-favorites-tab-openlayers-1 {
+	#gradient > .vertical(#445e6c, #334752);
+}
+.form-item-overlays-flag-favorites-tab-openlayers-1:hover,
+.form-item-overlays-flag-favorites-tab-openlayers-1:focus {
+	background-color: #445e6c;
+}
+
+#edit-overlays .form-item {
+	label {		
+		font-family: @gothamFamily;
+		color: @white;
+	}
+}
+

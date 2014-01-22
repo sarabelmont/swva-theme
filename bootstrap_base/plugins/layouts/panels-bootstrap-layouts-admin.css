@@ -1,0 +1,41 @@
+/*
+ * ==========================================================
+ * Grid
+ * ==========================================================
+ */
+.panels-dnd .panel-region {
+  display: inline;
+  float: left;
+  position: relative;
+  margin-left: 1%;
+}
+.panels-dnd #panel-region-top {width: 98.0%;}
+.panels-dnd #panel-region-bottom {width: 98.0%;}
+
+.panels-dnd .bootstrap-threecol-stacked #panel-region-left {width: 31.333%;}
+.panels-dnd .bootstrap-threecol-stacked #panel-region-middle {width: 31.333%;}
+.panels-dnd .bootstrap-threecol-stacked #panel-region-right {width: 31.333%;}
+
+.panels-dnd .bootstrap-twocol-stacked #panel-region-left {width: 48.0%;}
+.panels-dnd .bootstrap-twocol-stacked #panel-region-right {width: 48.0%;}
+
+.panels-dnd .row-fluid .span2 {width: 16.6%; float: left;}
+.panels-dnd .row-fluid .span3 {width: 25%; float: left;}
+.panels-dnd .row-fluid .span4 {width: 33%; float: left;}
+.panels-dnd .row-fluid .span5 {width: 42%; float: left;}
+.panels-dnd .row-fluid .span6 {width: 50%; float: left;}
+.panels-dnd .row-fluid .span7 {width: 58%; float: left;}
+.panels-dnd .row-fluid .span8 {width: 67%; float: left;}
+.panels-dnd .row-fluid .span9 {width: 75%; float: left;}
+.panels-dnd .row-fluid .span12 {width: 100%;}
+
+
+.panels-dnd .bootstrap-2col-5-3-mini .row-fluid .span3 {width: 31.333%; float: left;}
+.panels-dnd .bootstrap-2col-5-3-mini .row-fluid .span5 {width: 66%; float: left;}
+.panels-dnd .bootstrap-2col-5-3-mini .row-fluid .span8 {width: 100%;}
+.panels-dnd .bootstrap-2col-3-5-mini .row-fluid .span3 {width: 31.333%; float: left;}
+.panels-dnd .bootstrap-2col-3-5-mini .row-fluid .span5 {width: 66%; float: left;}
+.panels-dnd .bootstrap-2col-3-5-mini .row-fluid .span8 {width: 100%;}
+.panels-dnd .bootstrap-2col-6-2-mini .row-fluid .span3 {width: 25%; float: left;}
+.panels-dnd .bootstrap-2col-6-2-mini .row-fluid .span5 {width: 75%; float: left;}
+.panels-dnd .bootstrap-2col-6-2-mini .row-fluid .span8 {width: 100%;}

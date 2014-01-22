@@ -1,0 +1,911 @@
+// RTM
+// Homepage
+.row-primary {
+	background-color: @warmGrayLighter;
+	.row-fluid [class*="span"] {
+		margin-left: 0;
+	}
+	.container {
+		overflow: hidden;
+		
+		.intro h2 {
+			color: @blue;
+			margin-bottom: 0;
+			margin-top: 10px;
+			font-size: 1.7em;
+
+			@media (min-width: 1200px) {
+				font-size: 1.9em;
+			}
+		}				
+		.intro p {
+			font-size: .9em;
+			line-height: 1.75;
+			@media (min-width: 1200px) {
+				font-size: 1em;
+			}
+		}
+	}
+}
+.row-secondary {
+	background-color: @warmGrayLightest;
+}
+.row-tertiary {
+	background-color: @warmGrayLightest;	
+}
+
+// FLEXSLIDER
+
+.views-field-field-slideshow-text {
+	background: none repeat scroll 0 0 fade(@blue,50%);
+	bottom: 0;
+	overflow: hidden;
+	position: absolute;
+	text-align: left;
+	right: 0px;
+	color: @warmGrayLightest;
+	margin: 10% 0 10% 30%;
+	padding: 0 !important; /* ensures the block collapses if no text */
+	
+	p, h2, h3, h4 {
+		color: @warmGrayLightest;
+		text-shadow: 1px 1px 2px rgba(0, 0, 0, .5);
+		margin: 0;
+		padding: 20px 30px;
+	}
+}
+
+h1.page-header {
+	margin-bottom: 20px;
+}
+#bkg-left {
+/*	background: url(../images/bkg-photo-grid.jpg) no-repeat;
+	height: 250px;
+	margin: 0 auto;
+	display: block;
+	top: -3px;*/
+	min-width: 100%;
+	background: transparent url('../images/bkg-photo-grid.jpg') top no-repeat;
+	left: -1247px;
+}
+#bkg-right {
+/*	background: url(../images/bkg-photo-grid.jpg) no-repeat;
+	height: 250px;
+	margin: 0 auto;
+	display: block;
+	top: -3px;*/
+	min-width: 100%;
+	background: transparent url('../images/bkg-photo-grid.jpg') top no-repeat;
+	right: -1240px;
+}
+
+.block-container {
+	padding: 0;
+	background-color: @white;
+	border: 3px solid @warmGrayLighter;
+	
+	h3 {
+		color: @brown;
+		font-size: 2em;
+	}
+	h3.basic-title {
+		background-color: transparent;
+		color: @blue;
+		font-size: 1.6em;
+	}
+	h3.secondary-block-title {
+		font-size: 1.8em;
+		background-color: @brownDark;
+		color: @warmGrayLighter;
+		padding: 10px 20px;
+	}
+	nav {
+		padding-top: 0;
+	}
+	
+	.header {
+		background-color: @brownDark;
+		color: @warmGrayLighter;
+		margin: 0;
+		padding: 17px 20px 12px 20px;
+	}
+	a {
+		font-family: @gothamCondFamily;
+		font-size: 1.257em;
+		color: @blueLighter;
+		border-bottom: 1px solid @bluePale;
+	}
+	 nav a {
+	    font-family: @gothamCondMedium;
+		font-weight: 500;
+	 }
+ 	 .view-rtm-calendar {
+		 padding: 0 20px 20px;
+	 }
+		 
+}
+
+.view-filters {
+	.block-container;
+}
+
+.secondary-block {
+	p {
+		font-size: .875em;
+	}
+	h3 {
+		font-size: 1.75em;
+		padding: 15px 20px 0;
+	}
+	img {
+		background-color: @white;
+		padding: 5px;
+		border: 1px solid @warmGray;
+	}
+}
+.featured-member {
+	background-color: @warmGrayLighter;
+	h3 {
+		color: @blueDark;
+	}
+	.views-field-field-business-public-photo {
+		margin-bottom: 20px;
+	}
+	.views-field-title-1 {
+		font-family: @gothamCondMedium;
+		font-weight: 500;
+	}
+	.btn {
+		.border-radius(20px);
+	}
+}
+
+// WHAT'S NEARBY
+.proximity {
+	background-color: @blue;
+	border: 3px solid @warmGrayLighter;
+
+	h3 {
+	}
+}
+.scrollContainer {
+	background-color: @warmGrayLighter;
+}
+
+// FAVORITES
+.flag-wrapper {
+	.buttonBackground(@tealLightest, @tealLighter, @blue, 0 1px 1px rgba(255,255,255,.75));
+	.border-radius(12px);
+	
+	a {
+		color: @blue;
+	}
+}
+
+
+
+//Special Announcements table
+table tr {
+	padding: 11px;
+}
+table th, table td {
+	padding: 11px;
+	border-top: medium none;
+}
+.view-news-and-announcements table td {
+	font-size: 1.1em;
+	background-color: @warmGrayLighter;
+	border: solid 18px @white;
+	
+	.views-field-title a {
+		font-family: @gothamCondMedium;
+		font-weight: 500;
+		font-size: 1.4em;
+		color: @brown;
+		border-bottom: 1px solid lighten(@brown, 40%);
+	}
+	
+	p {
+		margin-top: 3px;
+	}
+	
+	.views-field-title-1 a { /* this is the more info button */
+		font-family: @gothamCondMedium;
+		font-weight: 500;
+		border: medium none;
+	}
+}
+
+
+
+// EVENTS CALENDAR
+.view-rtm-calendar {
+	.views-row {
+	}
+	
+	.views-field-title {
+		
+	}
+	.views-field-field-date-of-event {
+		font-size: .9em;
+	}
+}
+.page-rtm-events-calendar {
+	
+	.view-header {
+		margin-top: 30px;
+		
+		.date-prev a,
+		.date-next a {
+			width: 40px;
+		}
+		.date-nav-wrapper .date-heading h3 {
+			font-size: 2em;
+		}
+	}
+	
+	.calendar-calendar th.days {
+		font-family: @gothamCondMedium;
+		font-weight: 500;
+		text-transform: uppercase;
+	}
+}
+
+// BREADCRUMBS and Page HEADER
+.page-breadcrumb {
+	background-color: @warmGrayLighter;
+}
+.breadcrumb {
+	font-family: @gothamCondMedium;
+	font-size: .95em;
+	font-weight: 500;
+	color: darken(@warmGray, 10%);
+	margin: 1em;
+	
+	li > .divider {
+		color: darken(@warmGray, 10%);
+	}
+	a {
+		color: @linkColor;
+	}
+}
+.page-title {
+	background-color: @warmGray;
+}
+.header-bkg {
+	position: relative;
+	@media (min-width: 940px) {
+		height: 150px;
+	}
+	@media (min-width: 1200px) {
+		height: 186px;
+	}
+	
+	.header-title {
+		display: inline-block;
+  		.ie7-inline-block();
+		position: absolute;
+		top: 0;
+		background-color: fade(@blue, 70%);
+		
+			@media (min-width: 320px) {
+				height: 46px;
+				padding: 20px 40px 20px 20px;
+			}
+			@media (min-width: 940px) {
+				height: 46px;
+				padding: 84px 40px 20px 20px;
+			}
+			@media (min-width: 1200px) {
+				height: 46px;
+				padding: 120px 40px 20px 20px;
+			}
+	}
+
+	h1 {
+		color: @warmGrayLighter;
+		margin: 0;
+	}
+}
+
+.profile {
+	.header-bkg {
+		height: 100px;
+		
+		h1 {
+			color: @warmGrayLightest;
+		}
+		.header-title {
+			background-color: transparent;
+			height: auto;
+			padding: 20px 0;
+		}
+	}
+}
+
+// MAPS and TRAIL PAGES
+.map {
+	border: 1px solid @grayLight;
+}
+.openlayers-views-map {
+	border: 10px solid @white;
+}
+.trail-info h3 {
+	margin-bottom: 0;
+}
+.trail-info h2 {
+	padding: 0;
+	margin: 40px 0 0;
+	display: inline-block;
+  .ie7-inline-block();
+}
+
+.page-rtm-trails-and-map {
+	.header-bkg {
+		/*background:url("../images/banners/header-trails.jpg") no-repeat;*/
+		
+		.header-title {
+			background-color: fade(darken(@sage, 20%), 70%);
+		}
+	}
+	.main-container .panel-main {
+		background: url("../images/bkg-color-map.png") repeat-x;
+	}
+	&.page-rtm-trails-and-map-clinch-river-artisan-trail {
+		.header-bkg {
+			/*background:url("../images/banners/tazewell.jpg") no-repeat;*/
+		}
+		.main-container .panel-main {
+			background: none;
+		}
+	}
+	&.page-rtm-trails-and-map-countryside-artisan-trail {
+		.header-bkg {
+			/*background:url("../images/banners/washington.jpg") no-repeat;*/
+		}
+		.main-container .panel-main {
+			background: none;
+		}
+	}
+	&.page-rtm-trails-and-map-floyd-county-trail {
+		.header-bkg {
+			/*background:url("../images/banners/floyd.jpg") no-repeat;*/
+		}
+		.main-container .panel-main {
+			background: none;
+		}
+	}
+	&.page-rtm-trails-and-map-giles-art-and-adventure-trail {
+		.header-bkg {
+			/*background:url("../images/banners/giles.jpg") no-repeat;*/
+		}
+		.main-container .panel-main {
+			background: none;
+		}
+	}
+	&.page-rtm-trails-and-map-harmony-trail {
+		.header-bkg {
+			/*background:url("../images/banners/carroll.jpg") no-repeat;*/
+		}
+		.main-container .panel-main {
+			background: none;
+		}
+	}
+	&.page-rtm-trails-and-map-hidden-treasures {
+		.header-bkg {
+			/*background:url("../images/banners/patrick.jpg") no-repeat;*/
+		}
+		.main-container .panel-main {
+			background: none;
+		}
+	}
+	&.page-rtm-trails-and-map-lonesome-pine-artisan-trail {
+		.header-bkg {
+			/*background:url("../images/banners/wise.jpg") no-repeat;*/
+		}
+		.main-container .panel-main {
+			background: none;
+		}
+	}
+	&.page-rtm-trails-and-map-montgomery-county-artisan-trail {
+		.header-bkg {
+			/*background:url("../images/banners/montgomery.jpg") no-repeat;*/
+		}
+		.main-container .panel-main {
+			background: none;
+		}
+	}
+	&.page-rtm-trails-and-map-mountain-crossroads {
+		.header-bkg {
+			/*background:url("../images/banners/wythe.jpg") no-repeat;*/
+		}
+		.main-container .panel-main {
+			background: none;
+		}
+	}
+	&.page-rtm-trails-and-map-new-river-artisan-trail {
+		.header-bkg {
+			/*background:url("../images/banners/pulaski.jpg") no-repeat;*/
+		}
+		.main-container .panel-main {
+			background: none;
+		}
+	}
+	&.page-rtm-trails-and-map-rivers-to-ridges-artisan-trail {
+		.header-bkg {
+			/*background:url("../images/banners/dickenson.jpg") no-repeat;*/
+		}
+		.main-container .panel-main {
+			background: none;
+		}
+	}
+	&.page-rtm-trails-and-map-smyth-county-artisan-trail {
+		.header-bkg {
+			/*background:url("../images/banners/smythe.jpg") no-repeat;*/
+		}
+		.main-container .panel-main {
+			background: none;
+		}
+	}
+	&.page-rtm-trails-and-map-white-lightning-artisan-trail {
+		.header-bkg {
+			/*background:url("../images/banners/franklin.jpg") no-repeat;*/
+		}
+		.main-container .panel-main {
+			background: none;
+		}
+	}
+	&.page-rtm-trails-and-map-wilderness-road-artisan-trail {
+		.header-bkg {
+			/*background:url("../images/banners/lee.jpg") no-repeat;*/
+		}
+		.main-container .panel-main {
+			background: none;
+		}
+	}
+	&.page-rtm-trails-and-map-woven-mountains-and-river-bends {
+		.header-bkg {
+			/*background:url("../images/banners/grayson.jpg") no-repeat;*/
+		}
+		.main-container .panel-main {
+			background: none;
+		}
+	}
+}
+
+
+.page-rtm-artisans {
+	.header-bkg {
+		/*background:url("../images/banners/header-artisans.jpg") no-repeat;*/
+		
+		.header-title {
+			background-color: fade(@brown, 70%);
+		}
+	}
+	
+	/*&.page-rtm-artisans-clay .header-bkg {
+		background:url("../images/banners/header-clay.jpg") no-repeat;
+	}
+	&.page-rtm-artisans-fiber .header-bkg {
+		background:url("../images/banners/header-fiber.jpg") no-repeat;
+	}
+	&.page-rtm-artisans-glass .header-bkg {
+		background:url("../images/banners/header-glass.jpg") no-repeat;
+	}
+	&.page-rtm-artisans-jewelry .header-bkg {
+		background:url("../images/banners/header-jewelry.jpg") no-repeat;
+	}
+	&.page-rtm-artisans-literary .header-bkg {
+		background:url("../images/banners/header-literary.jpg") no-repeat;
+	}
+	&.page-rtm-artisans-man-made .header-bkg {
+		background:url("../images/banners/header-man-made.jpg") no-repeat;
+	}
+	&.page-rtm-artisans-metal .header-bkg {
+		background:url("../images/banners/header-forge.jpg") no-repeat;
+	}
+	&.page-rtm-artisans-mixed-media .header-bkg {
+		background:url("../images/banners/header-paper.jpg") no-repeat;
+	}
+	&.page-rtm-artisans-natural-material .header-bkg {
+		background:url("../images/banners/header-natural.jpg") no-repeat;
+	}
+	&.page-rtm-artisans-other .header-bkg {
+		background:url("../images/banners/header-metal.jpg") no-repeat;
+	}
+	&.page-rtm-artisans-two-dimensional .header-bkg {
+		background:url("../images/banners/header-2d.jpg") no-repeat;
+	}
+	&.page-rtm-artisans-wood .header-bkg {
+		background:url("../images/banners/header-wood.jpg") no-repeat;
+	}*/
+}
+
+.page-rtm-galleries {
+	.header-bkg {
+		/*background:url("../images/banners/header-1.jpg") no-repeat;*/
+		
+		.header-title {
+			background-color: fade(darken(@tealLighter, 30%), 70%);
+		}
+	}
+}
+
+.page-rtm-homegrown {
+	.header-bkg {
+		/*background:url("../images/banners/header-17.jpg") no-repeat;*/
+		
+		.header-title {
+			background-color: fade(@blueDark, 70%);
+		}
+	}
+}
+
+.page-rtm-learning {
+	.header-bkg {
+		/*background:url("../images/banners/header-learn.jpg") no-repeat;*/
+		.header-title {
+			background-color: fade(@teal, 70%);
+		}
+	}
+	/*&.page-rtm-learning-studio .header-bkg {
+		background:url("../images/banners/header-learn-studio.jpg") no-repeat;
+	}
+	&.page-rtm-learning-classroom .header-bkg {
+		background:url("../images/banners/header-learn-classroom.jpg") no-repeat;
+	}
+	&.page-rtm-learning-farm .header-bkg {
+		background:url("../images/banners/header-learn-farm.jpg") no-repeat;
+	}
+	&.page-rtm-learning-business .header-bkg {
+		background:url("../images/banners/header-learn-business.jpg") no-repeat;
+	}*/
+}
+
+.page-rtm-events {
+	 .header-bkg {
+		/*background:url("../images/banners/header-events.jpg") no-repeat;*/
+		
+		.header-title {
+			background-color: fade(@blue, 70%);
+		}
+	 }
+}
+
+.page-rtm-about {
+	.header-bkg {
+		/*background:url("../images/banners/header-14.jpg") no-repeat;*/
+		
+		.header-title {
+			background-color: rgba(131, 98, 73, .5);
+		}
+	}
+}
+
+
+// FORMS
+
+// EXPOSED FILTERS
+legend {
+	color: @brown;
+	font-family: @gothamCondFamily;
+	padding: 5px 10px 0 15px;
+	margin-bottom: 0;
+	line-height: @baseLineHeight;
+	border: 0;
+	border-bottom: none;
+}
+.views-exposed-form label,
+.views-exposed-form p {
+    color: darken(@warmGray, 10%);
+}
+
+// TABLES
+
+.table {
+	font-size: .875em;
+	margin-bottom: 20px;
+	
+	thead {
+	background-color: @warmGrayLighter;
+	font-family: @gothamCondMedium;
+	font-weight: 500;
+	font-size: 1.25em;
+	border-bottom: solid 3px @warmGray;
+	}
+	th {
+	font-family: @gothamCondMedium;
+	font-weight: 500;
+	}
+}
+
+
+.cols-3.table td {
+		width: 30%;
+}
+.cols-4.table td {
+		width: 25%;
+}
+.cols-5.table td {
+	width: 20%;
+	padding: 20px 13px;
+}
+
+.trail-info .table td {
+	width: 30%;
+	display: inline-block;
+  .ie7-inline-block();
+	border-top: medium none;
+}
+.trail-info .table tr {
+	border-top: 1px solid fade(@grayLight, 50%);
+}
+.table .field-gallery-venue-type .field-item,
+.table .field-homegrown-business-type .field-item {
+	display: inline;
+	float: left;
+	margin-right: 10px;
+	font-size: .875em;
+}
+
+
+// TABLE COLUMN WIDTHS
+.listings .table td.views-field-title {
+	width: 40%;
+}
+.memberships .table td.views-field-title {
+	width: 60%;
+}
+.memberships h4 {
+	margin-top: 0;
+}
+
+.table td.views-field-field-current-year-juried-1,
+.table td.views-field-field-artisan-trail
+ {
+	width: 12%;
+}
+
+.table td.views-field-field-artisan-primary-medium,
+.table td.field-town {
+	width: 15%;
+	font-size: .875em;
+}
+
+.table .field-artisan-primary-medium,
+.table .field-town {
+	font-size: .875em;
+}
+
+.view-rtm-calendar .table .views-field-title {
+	width: 50%;
+}
+.table .views-field-ops {
+	text-align: right;
+}
+.view-rtm-members-views .table .views-field-ops {
+	text-align: left;
+}
+
+// MEMBER PAGES
+.view-rtm-members-views .view-header {
+	font-size: .875em;
+}
+.node-type-rtm-business-member,
+.node-type-rtm-artisan {
+	.panel-row1 {
+		.block-container;
+		
+		a {
+			font-size: 1.2em;
+		}
+		
+		h3 {
+			font-size: 1.8em;
+			color: @warmGrayDark;
+			margin: 0;
+		}
+		h4 {
+			font-family: @gothamCondMedium;
+			font-weight: 500;
+			font-size: 1.3em;
+			color: @blueDarker;
+			margin: 10px 0 0 0;
+		}
+		.add-photos {
+			margin-left: 20px;
+		}
+		.field-trail-site-photos {
+			display: inline;
+		}
+		.field-trail-site-photos .field-item  {
+			display: inline;
+			padding-right: 5px;
+		}
+		.description {
+			margin: 0 20px 20px;
+		}
+	}
+	.field--url {
+    	margin-top: 20px;
+	}
+}
+.field-business-public-photo {
+	background-color: @warmGrayLighter;
+	padding: 10px;
+	border: solid 1px @grayLight;
+	margin: 20px 0 20px 20px;
+}
+
+
+.featureBlock {
+	font-size: .85em;
+	background-color: @warmGrayLighter;
+	
+	h3 {
+		color: @warmGrayDark;
+	}
+	h4 {
+		color: @blueDarker;
+	}
+}
+
+.callout {
+	.block-container;
+	margin: 0 20px 20px 0;
+	line-height: 1.25;
+	
+	&.artisan-trail {
+		padding: 10px;
+		padding-left: 100px;
+		background: @white url(../images/callout-artisan-trails.jpg) no-repeat;
+		
+		.field-item,
+		.field-artisan-trail {
+			font-family: @gothamCondMedium;
+			font-weight: 500;
+			font-size: 1.3em;
+		}
+		
+		.field-item:before,
+		.field-artisan-trail:before {
+			content: "Find me on the ";
+			display: block;
+			color: @grayLight;
+			font-size: .875em;
+		}
+
+		a {
+
+		}
+	}
+}
+
+h4.property {
+	color: @warmGrayDark;
+	background-color: @white;
+	border: solid 1px fade(@grayLight, 50%);
+	padding: 15px 8px 4px;
+	margin-bottom: 10px;
+}
+section.property {
+	padding-left: 10px;
+	font-size: .85em;
+}
+
+.rtm-icon {
+}
+
+.pane-content p img {
+	background-color: @warmGrayLighter;
+	padding: 10px;
+	border: 1px solid @grayLight;
+	margin: 10px;
+}
+
+// STAFF and BOARD OF DIRECTORS
+
+table caption {
+		background-color: @warmGrayLighter;
+		font-family: @gothamCondMedium;
+		font-weight: 500;
+		font-size: 1.5em;
+		text-align: left;
+		text-transform: uppercase;
+		padding: 15px 20px 10px;
+		margin-top: 20px;
+		border-bottom: solid 3px @warmGray;
+	}
+
+.staff {
+		
+	table {
+		.block-container;
+		border-top: medium none;
+		
+		h3 {
+		margin-top: 10px;
+		margin-bottom: 0;
+		color: @blue;
+		}
+		h4 {
+			margin: 0;
+			color: @blueDark;
+		}
+		.field-bio {
+			border-top: 1px solid #ccdeeb;
+			padding-top: 10px;
+			margin-top: -10px;
+		}
+		p {
+			margin: -10px 0 0;
+		}
+		tbody {
+			font-size: 1em;
+		}
+	
+		td {
+			padding: 10px 20px 20px;
+		}
+
+		.views-field-title {
+			width: 65%;
+			font-size: .9em;
+		}
+	}
+}
+
+
+// LISTS
+
+
+.view-content {
+	.item-list {
+		h3 {
+			border-bottom: 1px solid @copper;
+		}
+
+	}
+}
+
+
+// VIDEOS
+
+.video-large {
+	.view-content {
+		
+		.views-field-title {
+			color: @blue;
+			font-family: @gothamCondMedium;
+			font-size: 1.125em;
+			font-weight: 500;
+		}
+	}
+}
+
+// HOME PAGE VIDEO BLOCK
+#mini-panel-rtm_home_page_video_and_photo .view-media-gallery .view-header {
+	margin-top: -50px;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+}
+
+
+
+
+// USER PAGE
+
+.account-info {
+	.views-label {
+		font-family: @gothamCondMedium;
+		font-size: 1.125em;
+		font-weight: 500; 
+		color: @blue;
+	}
+}
+
+
+// TEXT
+.link {
+	color: @linkColor;
+}

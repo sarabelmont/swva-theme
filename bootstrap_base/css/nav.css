@@ -1,0 +1,28 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/nav\.less}line{font-family:\000037}}
+#edit-overlays .form-item label {
+  float: left;
+  width: 100%;
+  text-align: center;
+  padding: 3px 0px;
+  display: block;
+  border-radius: 4px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/nav\.less}line{font-family:\0000316}}
+#edit-overlays .form-item label input {
+  position: absolute;
+  top: -20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/nav\.less}line{font-family:\0000321}}
+#edit-overlays .form-item input:hover {
+  background-color: #efE0E0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/nav\.less}line{font-family:\0000325}}
+#edit-overlays .form-item input:checked {
+  background-color: #911;
+  color: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/nav\.less}line{font-family:\0000330}}
+#edit-overlays .form-item input:checked:hover {
+  background-color: #c11;
+  color: #fff;
+}

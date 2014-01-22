@@ -1,0 +1,957 @@
+// BASE
+// Insert your styling here.
+
+//status messages
+div.status{background-image:none;border-color:#be7;padding: 10px;}
+div.status,.ok{color:#234600;}
+div.status,table tr.ok{background-color:#f8fff0;}
+div.warning{background-image:none;border-color:#ed5;padding: 10px;}
+div.warning,.warning{color:#840;}
+div.warning,table tr.warning{background-color:#fffce5;}
+div.error{background-image:none;border-color:#d26419;padding: 10px;}
+div.error,.error{color:#8c2e0b;}
+div.error,table tr.error{background-color:#fcf6f0;}
+div.error p.error{color:#333;}
+div.messages ul{margin:0 0 0 1em;padding:0;}
+div.messages ul li{list-style-image:none;}
+
+
+
+
+//home page
+.row-primary {
+	
+	.row-fluid [class*="span"] {
+		margin-left: 0;
+	}
+	.container {
+		.span4 {
+			.paddingBlock;
+		}
+	}
+}
+
+//Graphics on side of primary row
+#bkg-left {
+	display: block;
+	position: absolute;
+	@media (min-width: 940px) {
+		height: 320px;
+	}
+	@media (min-width: 1200px) {
+		height: 405px;
+	}
+}
+#bkg-right {
+	display: block;
+	position: absolute;
+	@media (min-width: 940px) {
+		height: 320px;
+	}
+	@media (min-width: 1200px) {
+		height: 405px;
+	}
+}
+
+/*.header-container {
+	.region-header {
+		text-align: right;
+		display: inline-block;
+		.ie7-inline-block();
+		float: right;
+
+		#block-views-exp-search-results-search-page {
+			display: inline-block;
+			.ie7-inline-block();
+		}
+	}
+}*/
+
+.block-container {
+	margin-top: 30px;
+	padding: 0;
+	font-size: .875em;
+	
+	h3 {
+		.paddingBlock;
+		margin: 0;
+	}
+	h3.basic-title {
+		padding: 0;
+		margin: 0;
+	}
+	.profile h3 {
+		padding: 15px 0 0 0;
+	}
+	
+	nav {
+		.paddingBlock;
+	}
+	.static {
+		padding: 0 20px 10px;
+		margin-top: 0;
+		h4 {
+			margin: 20px 0 0 0;
+		}
+		>p {
+			padding-top: 15px;
+		}
+		>img {
+			padding-top: 15px;
+		}
+	}
+	&.home-video .span5 {
+		margin-left: 0;
+		width: (@fluidGridColumnWidth * 5) + (@fluidGridGutterWidth * 5); 
+	}
+	&.static {
+		padding: 0 20px 10px;
+		margin-top: 0;
+		>p {
+			padding-top: 15px;
+		}
+		>img {
+			padding-top: 15px;
+		}
+	}
+	&.sidebar {
+		font-size: .875em;
+		
+		label {
+			font-size: 1em;
+		}
+	}
+}
+.plainBlock {
+	padding: 10px;
+	border: solid 1px @grayLight;
+	margin: 20px 0;
+	
+	p {
+		font-size: .875em;
+		word-wrap:break-word;
+	}
+	img {
+		background-color: #f1eee9;
+		padding: 10px;
+		border: solid 1px #c4c4c4;
+		margin: 10px;
+	}
+	
+}
+.featureBlock {
+	font-size: .875em;
+	background-color: @grayLighter;
+	padding: 10px;
+	border: solid 1px @grayLight;
+	margin: 20px 20px 20px 0;
+	
+	h3 {
+		color: @grayDark;
+		margin-top: 0;
+	}
+	h4 {
+		color: @grayDark;
+		margin: 10px 0 0;
+	}
+}
+
+.view-filters {
+	.block-container;
+	margin-bottom: 20px;
+}
+
+.mini-pane {
+	height: 40px;
+	text-align: center;
+	text-transform: uppercase;
+	text-shadow: 0 1px 2px rgba(0,0,0,.5);
+	
+	margin: 20px 0 0;
+	padding: 30px 0 10px 0;
+
+	p {
+		margin: 0;
+	}
+}
+.content {
+	margin-top: 30px;
+}
+
+
+// EDIT BUTTON
+.views-field-edit-node a {
+	color: red;
+}
+
+// TABLES
+.cols-3.table,
+.cols-4.table,
+.cols-5.table {
+	/* fix for firefox - grids under galleries don't float under video without this */
+	float: left;
+}
+
+.cols-3.table td {
+		width: 30%;
+}
+.cols-4.table td {
+		width: 25%;
+}
+.cols-5.table td {
+	width: 20%;
+	padding: 20px 13px;
+}
+
+// PANELS
+.panel-main {
+	
+}
+
+// EXPOSED FILTERS
+legend {
+	padding: .5em 1em 0;
+	margin-bottom: 0;
+	margin-right: -5px;
+	font-size: @baseFontSize * .875;
+	line-height: @baseLineHeight;
+	border: 0;
+	border-bottom: none;
+}
+.exposed-form {
+	margin-bottom: 10px;
+	.help-block, .help-inline {
+		font-size: 11px;
+		font-style: italic;
+		margin-bottom: 0;
+	}
+}
+.views-exposed-widgets {
+	margin: 0.2em 1.25em 1em; 
+}
+.views-exposed-form .views-exposed-widget {
+	padding: 5px 0 0;
+}
+.views-exposed-form label {
+    font-weight: bold;
+	font-size: .875em;
+}
+
+// SEARCH BLOCK
+.search {
+	legend {
+		display: none;
+	}
+	.exposed-form {
+		background: transparent;
+		margin: 10px 0;
+		
+	}
+	.views-exposed-form .views-exposed-widget .form-submit  {
+		margin-top: 0;
+	}
+}
+
+// TEXT
+
+.description {
+	line-height: 1.5;
+}
+
+h2, h3, h4 {
+	margin-bottom: 0;
+}
+
+// LISTS
+.view-content {
+	.item-list {
+		h3 {
+			margin-bottom: 0;
+		}
+		li {
+			font-size: .875em;
+			margin: 20px;
+		}
+		p {
+			margin: 0;
+		}
+		
+		&.directory li {
+			
+		}
+	}
+}
+
+// MAPS 
+.map {
+	margin-top: 20px;
+	border: 1px solid @grayLight;
+}
+.openlayers-views-map {
+	border: 10px solid @white;
+}
+
+// MAP POPUPS
+.swva-popup {
+}
+.swva-popup-photo {
+	float: left;
+	margin-right: 10px;
+}
+.swva-popup-text {
+	margin-left: 70px;
+	
+	h4 {
+		margin: 0;
+	}
+}
+
+// MAP LAYER MENU
+.map-layer-menu {
+	.paddingNoTop;
+}
+
+
+// WHAT'S NEARBY block
+.geofield-proximity-field-wrapper .geofield-proximity-origin-from,
+.geofield-proximity-field-wrapper .form-item-field-geofield-distance-origin,
+.geofield-proximity-field-wrapper .form-item-field-geofield-distance-1-origin {
+	display: none;
+}
+.geofield-proximity-field-wrapper .form-item {
+	margin-right: 0;
+}
+
+.proximity {
+	margin-top: 30px;
+	padding: 20px 0 0;
+	background-color: @gray;
+	border: 3px solid @grayLighter;
+	
+	.block-container {
+		margin-top: 20px;
+		border-left: medium none;
+		border-right: medium none;
+		
+		legend {
+			display: none;
+		}
+	}
+	.view-header,
+	.view-footer {
+		font-size: .75em;
+		font-style: italic;
+		margin: 5px;
+	}
+
+	.exposed-form {
+		margin-bottom: 0; 
+	}
+	h3 {
+		color: @white;
+		margin: 0 20px;
+	}
+	.item-list {
+		height: 300px;
+		
+		li {
+			margin: 0;
+			padding: 6px 20px;
+			border-bottom: 1px solid @white;
+			
+			&.views-row-first {
+				padding-top: 10px;
+			}
+			.views-field-title,
+			.views-field-field-geofield-distance-1 {
+				display: inline;
+			}
+		}
+	}
+	.views-field-field-geofield-distance-1 {
+		font-size: 12px;
+		color: @gray;
+	}
+
+	/* overwrite some stuff to make the search box fit better */
+	.block-container {
+		margin-top: 20px;
+	}
+	.exposed-form {
+		margin-bottom: 0; 
+	}
+	.view-filters {
+		margin: 0;
+	}
+	.views-exposed-widgets {
+		margin-right: 0;
+		.form-item input {
+		width: 40px;
+		}
+	}
+	.form-item-field-geofield-distance-1-distance,
+	.form-item-field-geofield-distance-1-unit {
+		float: left;
+	}
+	#edit-field-geofield-distance-1-unit {
+		width: 110px;
+		margin-right: 10px;
+		height: 30px;
+		margin-left: -4px;
+	}
+	
+	.chosen-container {
+		width: 100% !important;
+		margin-top: -3px;
+	}
+	.chosen-container.chosen-with-drop .chosen-drop {
+		width: 150px;
+	}
+	
+}
+.scrollContainer {
+	overflow-y: scroll;
+	background-color: @wellBackground;
+}
+
+// QUICKTAB OVERRIDES FOR PROXIMITY SEARCH
+
+.quicktabs-style-sky {
+	background-color: white;
+	margin-top: 10px;
+	background: #fff url('images/bg-shade-light.png') repeat-x bottom left;
+}
+.quicktabs_main.quicktabs-style-sky {
+	border: 1px solid #fff;
+	padding: 0;
+}
+
+
+// FAVORITES
+.flag-outer-favorites {
+	text-align: right;
+}
+.flag-wrapper {
+	.btn;
+	font-size: .875em;
+	margin: 10px 0;
+	
+	.unflag-action:before {
+		content: "- ";
+		font-size: 1.5em;
+		color: @red;
+		line-height: 1;
+		display: inline-block;
+		.ie7-inline-block();
+		width: 15px;
+		margin: 0 10px 0 -5px;
+		padding: 0 2px;
+		background-color: @white;
+		.border-radius(15px);
+	}
+	
+	.flag-action:before {
+		content: "+ ";
+		font-size: 1.25em;
+		color: @green;
+		line-height: 1;
+		display: inline-block;
+		.ie7-inline-block();
+		width: 15px;
+		margin: 0 10px 0 -5px;
+		padding: 0 2px;
+		background-color: @white;
+		.border-radius(15px);
+	}
+}
+.view-flag-favorites-tab {
+	.tabledrag-toggle-weight-wrapper {
+		display: none;
+	}
+	
+	.view-header {
+		margin-top: 30px;
+	}
+
+	.form-actions {
+			padding: 30px;
+	}
+	
+	table {
+		font-size: .8em;
+		
+		h4 {
+			font-size: 1.25em;
+			margin: 0;
+		}
+		
+		.flag-wrapper {
+			.buttonBackground(@grayLighter, darken(@grayLighter, 15%), @gray, 0 1px 1px rgba(255,255,255,.75));
+			 a {
+				font-size: 1em;
+				color: @gray;
+			 }
+		}
+		
+		td {
+			padding: 20px 8px;
+		}
+
+		td.views-field.views-field-field-image {
+			width: auto;
+			padding: 20px 30px;
+			
+			img {
+				margin: -20px 0 0 30px;
+				background-color: @white;
+				border: 1px solid darken(@grayLighter, 15%);
+				padding: 8px;
+			}
+		}
+		td.views-field-title {
+			width: auto;
+			padding: 25px 30px 20px;
+			word-break: break-word;
+		}
+	}
+}
+
+.flag-message {
+	margin-top: 10px;
+	font-size: .875em;
+	padding: 5px;
+	background-color: @white;
+	.border-radius(5px);
+	width: 200px;
+	
+	&.flag-flagged-message {
+		color: @green;
+	}
+	&.flag-unflagged-message {
+		color: @red;
+	}
+}
+
+// VIDEO & AUDIO - Mediafront module
+.mini-player {
+	margin-top: 0;
+	width: 200px;
+	overflow: hidden;
+	border-radius: 0 25px 25px 0;
+	font-family: @sansFontFamily;
+	
+	
+	.view-content {
+		width: 160px;
+		padding: 10px 20px;
+		float: right;
+		/* TEMP HACK TO HIDE PLAYLIST */
+		display: none;
+	}
+	.player-ui.controller-only {
+		height: 75px !important;
+		width: 160px !important;
+		float: right;
+		margin-left: 0;
+		margin-right: 30px;
+	}
+	.player-ui .minplayer-default-timer,
+	.player-ui .minplayer-controls-volume-horizontal .minplayer-default-controls-mid {
+		display: none;
+	}
+	.player-ui .minplayer-controls-volume-horizontal .minplayer-default-controls-right  {
+		width: 100px;
+		float:left;
+		margin: 2px 10px 2px 5px;
+	}
+	.player-ui .minplayer-default-controls-left {
+		margin: 2px 5px;
+	}
+	.player-ui.controller-only .minplayer-controls-volume-horizontal .minplayer-default-volume-slider {
+		width: 50px;
+	}
+	.player-ui .minplayer-controls-volume-horizontal .minplayer-default-volume {
+		width: 85px;
+		margin-left: 0;
+		margin-top: 5px;
+	}
+	#mediaplayer_info {
+		display: none;
+	}
+	.ui-widget-header {
+		border-radius: 15px;
+	}
+	.ui-widget-content {
+		background-color: transparent !important;
+		background-image: none !important;
+	}
+}
+.mini-player.chrome {
+	width: 300px;
+	background-color: #edcb9d;
+	
+	.view-header {
+		text-transform: none;
+		width: 100%;
+		float: left;
+		background-color: #f3e0c3;
+		padding: 10px 10px;
+	}
+	
+	h4 {
+		color: #94532a;
+		font-size: 1.50em;
+		margin: 0;
+		width: 100px;
+	}
+	p {
+		margin-bottom: 0;
+		width: 100px;
+	}
+	a:hover {
+		color: #000;
+	}
+	#mediaplayer_info {
+		display: block;
+		margin-top: 45px;
+		height: 32px;
+	}
+	#mediaplayer_title:before {
+		content: "Now Playing: ";
+		font-weight: bold;
+		color: #ba7441;
+	}
+}
+
+.playlist {
+	
+	.view-content {
+		height: 500px;
+		overflow-y: scroll;
+		font-size: .75em;
+		background-color: #f7f1e6;
+		padding: 4px;
+				
+		.views-row {
+			padding: 10px 20px;
+		}
+		.views-row.views-row-even {
+			background-color: rgba(243, 224, 195, .5);
+		}
+		.views-field-title {
+			color: #a3a872;
+			font-size: 1.125em;
+			font-weight: bold;
+			text-decoration: underline;
+			cursor: pointer;
+		}
+		.field-artist-or-group-name {
+			margin: 0;
+		}
+	}
+}
+
+
+// really annoying code to show just play button on controller - 
+// if there's time, this should be rolled into a player theme
+
+.basic-player .controller-only{
+	.player-ui .ui-slider-horizontal .ui-slider-handle {
+		margin-left: -.3em !important;
+	}
+	
+	.player-ui .minplayer-stretchy-seek .ui-slider-handle,
+	.player-ui .minplayer-default-seek .ui-slider-handle {
+		width: 11px !important;
+		height: 11px !important;
+	}
+	.player-ui .minplayer-default-button {
+		width: 30px;
+		height: 30px;
+		background-color: white !important;
+		border-radius: 15px;
+		border: solid 1px gray;
+	}
+	.player-ui .minplayer-default-volume .minplayer-default-button {
+		background-color: transparent !important;
+		background-image: none !important;
+		border-radius: 0;
+		border: medium none;
+	}
+	.player-ui .minplayer-default-volume .minplayer-default-button span {
+		margin: 8px 0 0 7px!important;
+	}
+	/*
+	.ui-state-default,
+	.ui-widget-header,
+	.ui-widget-content {
+		background: transparent !important;
+		background-image: none !important;
+	}
+	*/
+	.ui-widget-header {
+		border: medium none !important;
+	}
+	.player-ui .minplayer-default-controls-left {
+		border-right: medium none !important;
+	}
+	.ui-icon-play {
+		background-position: 0 -157px !important;
+	}
+	.ui-icon-pause {
+		background-position: -17px -158px !important;
+	}
+	.player-ui .minplayer-default-button span {
+		margin: 4px 0 0 7px !important;
+	}
+	.player-ui .minplayer-default-controls {
+		height: 38px!important;
+		top: 0 !important;
+		padding-top: 2px;
+	}
+}
+
+.osmplayer-default {
+		@shadow: 0 0 0 #000;
+		.box-shadow(@shadow) !important;
+	}
+	
+.minplayer-default-preview img {
+	margin: -55px 0 0 !important;
+	width: 135% !important;
+	height: 135% !important;
+}	
+
+/*.minplayer-stretchy-preview img {
+	margin: 0 !important;
+	width: 100% !important;
+	height: 135% !important;
+}*/
+
+#mediafront_player_380x214 .minplayer-stretchy-preview img {
+	margin-left: 0 !important;
+	margin-top: -65px !important;
+	width: 135% !important;
+	height: 135% !important;
+	
+	@media (min-width: 768px) {
+		margin-top: -42px !important;
+	}
+}
+
+.video-large {
+	margin-top: 20px;
+	
+	img {
+		margin: 0 !important;
+		width: 100% !important;
+		height: 100% !important;
+	 }
+	 table caption {
+		font-size: 1.5em;
+		text-align: left;
+		text-transform: uppercase;
+		padding: 15px 20px 10px;
+		margin-top: 20px;
+		border-bottom: solid 3px @gray;
+	}
+	.views-field-field-image-upload {
+		cursor: pointer;
+	}
+	.view-content {
+		margin-top: 20px;
+		
+		.views-field-title {
+			color: @linkColor;
+			font-size: 1.125em;
+			font-weight: bold;
+			text-decoration: underline;
+			cursor: pointer;
+		}
+	}
+	
+	&.video-sidebar {
+		@media (min-width:240px) {
+			#mediaplayer_info {
+				display:none;
+			}
+		}
+		
+		@media (min-width: 320px) {
+			.osmplayer-stretchy {
+				width: 100% !important;
+				padding-bottom: 56.25%;
+			}
+			.tagline {
+				margin-left: 0;
+				font-size: .875em;
+			}
+		}
+		@media (min-width: 768px) {
+			.osmplayer-stretchy {
+				.player-ui {
+					.minplayer-stretchy-loader-wrapper {
+						width:100%;
+						height:75%;
+						background:transparent;
+					}
+					.minplayer-stretchy-preview {
+						width:72%;
+						height:135%;
+					}
+					.minplayer-stretchy-big-play {
+						left: 35%;
+						top: 60%;
+					}
+					.minplayer-stretchy-controls {
+						width:72%;
+					}
+					.minplayer-stretchy-display {
+						width:72%;
+						height:100%;
+						float:left;
+					}
+				}
+				
+				#mediaplayer_info {
+					font-family: @baseFontFamily;
+					display:inline;
+					float:right;
+					width:23%;
+					padding:0 0 0 3%;
+					
+					#mediaplayer_tagline {
+						font-size:1.25em;
+					}
+					#mediaplayer_body {
+						font-size:.875em;
+					}
+				}
+			}
+		}
+		@media (min-width: 940px) {
+			.osmplayer-stretchy {
+				padding-bottom: 40.5%;
+				float: left;
+			}
+			.tagline {
+				margin-left: 78%;
+			}
+		}
+		@media (min-width: 1200px) {
+		}
+	}
+}
+
+
+// BREADCRUMBS and Page HEADER
+.page-top {
+	
+}
+.breadcrumb {
+	li {
+		margin-left: 0;
+	}
+}
+	
+// PAGE HEADER
+
+
+// EVENTS
+.view-tcr-calendar, .view-rtm-calendar, .view-swva-calendar  {
+	.clearfix;
+	
+	.views-row {
+		margin-bottom: 1.1em;
+	}
+	.views-field-title {
+	}
+	.views-field-field-date-of-event {
+		margin-top: 3px;
+	}
+}
+
+
+
+
+.field-collection-container {
+	border-bottom: medium none;
+}
+
+// IMAGES
+
+p > img {
+	background-color: @grayLighter;
+	padding: 10px;
+	border: 1px solid @grayLight;
+	margin: 10px;
+}
+
+.img-reset {
+	background-color: transparent !important;
+	padding: 0 !important;
+	border: medium none !important;
+	margin: 0 !important;
+}
+
+// FOOTER
+
+ul.unstyled li {
+	margin-left: 0;
+}
+
+
+// GENERAL TEXT
+
+
+
+// EVENTS
+
+.contact {
+	h4 {
+		margin: 10px 0 0 0;
+	}
+}
+
+
+// USER PAGE
+
+.account-info {
+	.view-header {
+		margin-top: 15px;
+	}
+	.view-content {
+		display: table;
+		margin-top: 20px;
+	}
+	.views-field {
+		display: table-row;
+	}
+	.views-label {
+		font-weight: bold; 
+		padding: 3px 20px 3px 3px;
+		display: table-cell;
+	}
+	.field-content {
+		padding: 3px 20px 3px 3px;
+		display: table-cell;
+		font-size: .875em;
+	}
+	
+}
+
+// DIRECTORY style lists of stuff (communities, e.g.)
+
+.directory {
+	h3 {
+		border-bottom: 1px solid darken(@grayLighter, 10%);
+		clear: both;
+		padding: 20px 0 0 0;
+		margin-left: 30px;
+	}
+	.views-row {
+		margin: 8px 30px;
+		width: 120px;
+		float: left;
+	}
+}

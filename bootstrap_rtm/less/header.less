@@ -1,0 +1,56 @@
+// RTM
+// Insert your styling here.
+.top-navbar-inner {
+  background-color: @topNavBackground;
+}
+
+// LOGO
+.header-container .logo {
+	padding: 20px 20px 15px;
+
+}
+
+// HEADER LINKS
+.header-container {
+	.navbar .nav > li > a {
+		color: @linkColor;
+		font-family: @gothamCondMedium;
+		font-size: 1.25em;
+		font-weight: 500;
+	}
+	.navbar .nav > li > a:focus,
+	.navbar .nav > li > a:hover {
+		color: @linkColorHover;
+	}
+	.navbar .nav > .active > a, 
+	.navbar .nav > .active > a:hover, 
+	.navbar .nav > .active > a:focus {
+		color: @linkColor;
+	}
+}
+// MAIN MENU
+.tb-megamenu .nav li.dropdown > .dropdown-toggle .caret {
+	@media only screen and (max-width: 979px) {
+		display: none;
+	}
+}
+.navbar .tb-megamenu .nav > li > a {
+	@media only screen and (min-width: 320px) {
+		padding-left: 15px;
+		padding-right: 15px;
+		text-transform: capitalize;
+		letter-spacing: 0;
+		font-size: 1.1em;
+	}
+	@media only screen and (min-width: 979px) {
+		padding-left: 13px;
+		padding-right: 13px;
+		text-transform: uppercase;
+		letter-spacing: .1em;
+	}
+	@media only screen and (min-width: 1200px) {
+		padding-left: 24px;
+		padding-right: 24px;
+		font-size: 1.1em;
+	}
+}

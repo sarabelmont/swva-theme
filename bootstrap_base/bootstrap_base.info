@@ -1,0 +1,93 @@
+name = Bootstrap Base
+description = Modified Bootstrap to serve as base for SWVA sites
+core = 7.x
+base theme = bootstrap
+
+; Regions
+regions[header]         = 'Header'
+regions[navigation]     = 'Navigation'
+regions[highlighted]    = 'Highlighted'
+regions[help]           = 'Help'
+regions[page_title_photo]     = 'Page Title and Photo'
+regions[content]        = 'Content'
+regions[sidebar_first]  = 'Primary'
+regions[sidebar_second] = 'Secondary'
+regions[footer]         = 'Footer'
+regions[footer_bottom]  = 'Footer Copyright'
+
+; Stylesheets
+;stylesheets[all][] = css/bootstrap.css
+;stylesheets[all][] = css/responsive.css
+;stylesheets[all][] = css/overrides.css
+;stylesheets[all][] = css/header.css
+;stylesheets[all][] = css/content.css
+;stylesheets[all][] = css/footer.css
+stylesheets[all][] = css/calendar_multiday.css
+stylesheets[all][] = css/base_style.css
+stylesheets[all][] = css/flexslider.css
+
+;css
+exclude[css][] = 'sites/all/modules/olfp/olfp.css'
+;exclude[css][] = 'misc/vertical-tabs.css'
+exclude[css][] = 'modules/aggregator/aggregator.css'
+exclude[css][] = 'modules/block/block.css'
+exclude[css][] = 'modules/book/book.css'
+exclude[css][] = 'modules/comment/comment.css'
+exclude[css][] = 'modules/dblog/dblog.css'
+exclude[css][] = 'modules/file/file.css'
+exclude[css][] = 'modules/filter/filter.css'
+exclude[css][] = 'modules/forum/forum.css'
+exclude[css][] = 'modules/help/help.css'
+exclude[css][] = 'modules/menu/menu.css'
+exclude[css][] = 'modules/node/node.css'
+exclude[css][] = 'modules/openid/openid.css'
+exclude[css][] = 'modules/poll/poll.css'
+exclude[css][] = 'modules/search/search.css'
+exclude[css][] = 'modules/statistics/statistics.css'
+exclude[css][] = 'modules/syslog/syslog.css'
+;exclude[css][] = 'modules/system/admin.css'
+exclude[css][] = 'modules/system/maintenance.css'
+;exclude[css][] = 'modules/system/system.css'
+;exclude[css][] = 'modules/system/system.admin.css'
+;exclude[css][] = 'modules/system/system.base.css'
+exclude[css][] = 'modules/system/system.maintenance.css'
+exclude[css][] = 'modules/system/system.menus.css'
+exclude[css][] = 'modules/system/system.messages.css'
+exclude[css][] = 'modules/system/system.theme.css'
+exclude[css][] = 'modules/taxonomy/taxonomy.css'
+exclude[css][] = 'modules/tracker/tracker.css'
+exclude[css][] = 'modules/update/update.css'
+exclude[css][] = 'modules/user/user.css'
+
+
+;**********************************
+; Bootstrap Source Files
+;**********************************
+; 
+; Scripts
+scripts[] = 'bootstrap/js/bootstrap-affix.js'
+scripts[] = 'bootstrap/js/bootstrap-alert.js'
+scripts[] = 'bootstrap/js/bootstrap-button.js'
+scripts[] = 'bootstrap/js/bootstrap-carousel.js'
+scripts[] = 'bootstrap/js/bootstrap-collapse.js'
+scripts[] = 'bootstrap/js/bootstrap-dropdown.js'
+scripts[] = 'bootstrap/js/bootstrap-modal.js'
+scripts[] = 'bootstrap/js/bootstrap-tooltip.js'
+scripts[] = 'bootstrap/js/bootstrap-popover.js'
+scripts[] = 'bootstrap/js/bootstrap-scrollspy.js'
+scripts[] = 'bootstrap/js/bootstrap-transition.js'
+scripts[] = 'bootstrap/js/bootstrap-typeahead.js'
+; 
+; Settings inherited by base theme, uncomment to override.
+settings[toggle_name] = 0
+settings[toggle_search] = 1
+; Disable the CDN as we are using our own source files.
+settings[cdn_bootstrap] = 0
+
+
+;**********************************
+; Plugins
+;**********************************
+;
+; Bootstrap Panel Layouts
+plugins[panels][layouts] = plugins/layouts

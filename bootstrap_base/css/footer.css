@@ -1,0 +1,53 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/footer\.less}line{font-family:\000034}}
+.footer {
+  line-height: 1.5;
+  font-size: .875em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/footer\.less}line{font-family:\000038}}
+.footer h3 {
+  font-size: 1.35em;
+  margin-bottom: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/footer\.less}line{font-family:\0000313}}
+.footer p {
+  margin-top: 5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/footer\.less}line{font-family:\0000317}}
+.footer .footer-nav {
+  padding: 0 20px 20px;
+  height: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/footer\.less}line{font-family:\0000321}}
+.footer .footer-nav h3 {
+  margin-bottom: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/footer\.less}line{font-family:\0000324}}
+.footer .footer-nav a,
+.footer .footer-nav p {
+  font-size: .875em;
+  line-height: 1.5;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/footer\.less}line{font-family:\0000328}}
+.footer .footer-nav ul {
+  margin: .5em 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/footer\.less}line{font-family:\0000333}}
+.footer .footer-bottom {
+  font-size: .875em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/footer\.less}line{font-family:\0000338}}
+.footer-block {
+  padding: 25px 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/footer\.less}line{font-family:\0000342}}
+.footer-block ul li {
+  float: left;
+  padding: 5px 10px;
+  display: inline-block;
+  margin-right: 1em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/footer\.less}line{font-family:\0000348}}
+.footer-block ul li figure {
+  margin: 0;
+  padding: 0;
+}

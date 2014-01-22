@@ -1,0 +1,177 @@
+// RTM
+// Insert your styling here.
+
+// Top Nav Links
+.navbar .top-navbar-inner .nav > li  {
+  background-color: lighten(@topNavBackground, 25%);
+  color: @navbarLinkColor;
+  height: @topNavHeight;
+}
+
+.navbar .top-navbar-inner .nav > li > a {
+  color: @navbarLinkColor;
+}
+.navbar .top-navbar-inner .nav > li.swva {
+	background-color: lighten(@topNavBackground, 10%);
+}
+.navbar .top-navbar-inner .nav > li.rtm {
+	background-color: lighten(@topNavBackground, 25%);
+}
+.navbar .top-navbar-inner .nav > li.tcr {
+	background-color: lighten(@topNavBackground, 10%);
+}
+.btn {
+	font-family: @gothamCondFamily;
+}
+a.btn-primary,
+.btn-primary {
+	.buttonBackground(@blue, @blueDarker, @white, 0 1px 1px rgba(0,0,0,.25));
+	.border-radius(10px);
+	padding: 3px, 15px;
+	font-size: 14px;
+}
+a.btn-secondary,
+.btn-secondary {
+	.buttonBackground(@copper, @brownDark, @warmGrayLighter, 0 1px 1px rgba(0,0,0,.25));
+	.border-radius(10px);
+	padding: 3px, 15px;
+	font-size: 14px;
+}
+a.btn-disabled,
+.btn-disabled {
+	.buttonBackground(@warmGray, @warmGrayLighter, @warmGrayDark, 0 1px 1px rgba(255,255,255,.75));
+	.border-radius(10px);
+	padding: 3px, 15px;
+	font-size: 14px;
+}
+.more-link a {
+	.btn;
+	.btn-primary;
+}
+
+//SECONDARY MENUS
+.secondary-menu {
+	background-color: @blue;
+	color: @white;
+	font-family: @gothamCondFamily;
+	font-size: 1.1em;
+	
+	ul li.collapsed, ul li.expanded, ul li.leaf {
+	}
+	
+	ul li.leaf {
+	}
+	ul li.first.leaf {
+	}
+	ul li.last.leaf {
+	}
+		
+	.nav > li > a {
+		color: @white;
+		font-family: @gothamCondFamily;
+		text-shadow: 0 1px 2px rgba(0,0,0,.5);
+	}
+	.nav > li > a:hover,
+	.nav > li > a:focus {
+		background-color: @blueLighter;
+	}
+	.nav > li > a.active {
+		background-color: fade(@blueLighter, 50%);
+		text-shadow: 0;
+	}
+}
+h4.menu-title {
+	background-color: @brown;
+	color: @white;
+}
+
+// JOIN MENU
+
+nav.join-menu {
+	padding: 0;
+	font-size: .9em;
+	margin-top: 0;
+
+	ul li {
+		padding: 10px 20px;
+		margin-left: 0;
+	}
+	.first {
+		background-color: lighten(@warmGray, 80%);
+	}
+	.second {
+		background-color: @tealLightest;
+	}
+	.third {
+		background-color: @blueLightest;
+	}
+}
+
+.row-tertiary nav.join-menu {
+	border: medium none;
+	font-size: 1em;
+}
+
+// MAP LAYER BUTTONS
+#edit-overlays .form-item input {
+	font-family: @gothamCondFamily;
+	color: @white;
+	margin-top: 5px !important;
+}
+	
+
+.form-item-overlays-rtm-members-overlay-trail-homegrown,
+.form-item-overlays-rtm-members-overlay-trail-galleries,
+.form-item-overlays-rtm-members-overlay-trail-supporting,
+.form-item-overlays-rtm-members-overlay-trail-artisans {
+	 .btn;
+	    float:left;
+	    width:100%;
+		text-align:left;
+	    display:block;
+		padding: 6px 10px 5px;
+		margin: 4px 0;
+	    .border-radius(5px);
+		.box-shadow(@boxShadow);
+		text-shadow: 0 1px 1px rgba(0,0,0,.35);
+}
+
+.form-item-overlays-rtm-members-overlay-trail-artisans {
+	#gradient > .vertical(#648aa4, #497594);
+}
+.form-item-overlays-rtm-members-overlay-trail-artisans:hover,
+.form-item-overlays-rtm-members-overlay-trail-artisans:focus {
+	background-color: #648aa4;
+}
+
+.form-item-overlays-rtm-members-overlay-trail-supporting {
+	#gradient > .vertical(#c4895d, #c4895d);
+}
+.form-item-overlays-rtm-members-overlay-trail-supporting:hover,
+.form-item-overlays-rtm-members-overlay-trail-supporting:focus {
+	background-color: #c4895d;
+}
+
+.form-item-overlays-rtm-members-overlay-trail-galleries {
+	#gradient > .vertical(#95bbbc, #83afb0);
+}
+.form-item-overlays-rtm-members-overlay-trail-galleries:hover,
+.form-item-overlays-rtm-members-overlay-trail-galleries:focus {
+	background-color: #95bbbc;
+}
+
+.form-item-overlays-rtm-members-overlay-trail-homegrown {
+	#gradient > .vertical(#b1b587, #a3a872);
+}
+.form-item-overlays-rtm-members-overlay-trail-homegrown:hover,
+.form-item-overlays-rtm-members-overlay-trail-homegrown:focus {
+	background-color: #b1b587;
+}
+
+#edit-overlays .form-item {
+	label {		
+		font-family: @gothamCondFamily;
+		color: @white;
+	}
+}
+

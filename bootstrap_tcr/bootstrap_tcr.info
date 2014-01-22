@@ -1,0 +1,20 @@
+name = Bootstrap TCR
+description = A Bootstrap Sub-theme for The Crooked Road
+core = 7.x
+base theme = bootstrap_base
+
+; Regions
+regions[header]         = 'Header'
+regions[navigation]     = 'Navigation'
+regions[highlighted]    = 'Highlighted'
+regions[help]           = 'Help'
+regions[page_title_photo]     = 'Page Title and Photo'
+regions[content]        = 'Content'
+regions[sidebar_first]  = 'Primary'
+regions[sidebar_second] = 'Secondary'
+regions[footer]         = 'Footer'
+regions[footer_bottom]  = 'Footer Copyright'
+
+; Stylesheets
+stylesheets[all][] = css/tcr_style.css
+stylesheets[all][] = css/tb_mega_menu_tcr.css

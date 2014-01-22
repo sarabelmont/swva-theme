@@ -1,0 +1,149 @@
+// TCR
+// Insert your styling here.
+
+// Top Nav Links
+.navbar .top-navbar-inner .nav > li  {
+  background-color: lighten(@topNavBackground, 25%);
+  color: @navbarLinkColor;
+  height: @topNavHeight;
+}
+
+.navbar .top-navbar-inner .nav > li > a {
+  color: @navbarLinkColor;
+}
+.navbar .top-navbar-inner .nav > li.swva {
+	background-color: fade(@yellow, 60%);
+}
+.navbar .top-navbar-inner .nav > li.rtm {
+	background-color: fade(@yellow, 60%);
+}
+.navbar .top-navbar-inner .nav > li.tcr {
+	background-color: fade(@yellow, 100%);
+}
+.btn {
+	font-family: @condensedFamily;
+}
+a.btn-primary,
+.btn-primary {
+	.buttonBackground(@greenLight, @green, @white, 0 1px 1px rgba(0,0,0,.25));
+	.border-radius(10px);
+	padding: 3px, 15px;
+	font-size: 14px;
+}
+a.btn-secondary,
+.btn-secondary {
+	.buttonBackground(@brown, @brownDark, @yellowLighter, 0 1px 1px rgba(0,0,0,.25));
+	.border-radius(10px);
+	padding: 3px, 15px;
+	font-size: 14px;
+}
+a.btn-disabled,
+.btn-disabled {
+	.buttonBackground(@gray, @grayLighter, @grayDark, 0 1px 1px rgba(255,255,255,.75));
+	.border-radius(10px);
+	padding: 3px, 15px;
+	font-size: 14px;
+}
+.more-link a {
+	.btn;
+	.btn-primary;
+}
+
+//SECONDARY MENUS
+.secondary-menu {
+	background: @orangeDarker url('../images/wood-tile-small.jpg') top repeat;
+	color: @yellowLighter;
+	font-family: @condensedFamily;
+	font-size: 1.1em;
+	text-transform: uppercase;
+	box-shadow: 0 2px 10px rgba(0,0,0,.5);
+	margin-bottom: 30px;
+	
+	ul li.collapsed, ul li.expanded, ul li.leaf {
+	}
+	
+	ul li.leaf {
+		margin: 10px;
+	}
+	ul li.first.leaf {
+	}
+	ul li.last.leaf {
+	}
+		
+	.nav > li > a {
+		color: @yellowLighter;
+		font-family: @condensedFamily;
+		text-shadow: 0 1px 2px rgba(0,0,0,.5);
+	}
+	.nav > li > a:hover,
+	.nav > li > a:focus {
+		background-color: @orangeDark;
+	}
+	.nav > li > a.active {
+		background-color: fade(@orangeDark, 70%);
+		text-shadow: 0;
+	}
+}
+h4.menu-title {
+	background: @brownDarkest url('../images/menu-title-bkg.jpg');
+	color: @orange;
+	text-shadow: 1px 1px 3px fade(@brownDarkest, 70%);
+	padding-top: 21px;
+	box-shadow: 0 2px 10px rgba(0,0,0,.5);
+}
+
+// MAP LAYER BUTTONS
+#edit-overlays .form-item input {
+	font-family: @condensedFamily;
+	color: @yellowLighter;
+	margin-top: 3px !important;
+}
+	
+
+.form-item-overlays-tcr-map-and-views-layers-tcr-affiliated-venues,
+.form-item-overlays-tcr-map-and-views-layers-tcr-waysides,
+.form-item-overlays-tcr-map-and-views-layers-tcr-major-venues {
+	 .btn;
+	    float:left;
+	    width: 200px;
+		text-align:left;
+	    display:block;
+		padding: 6px 10px 5px;
+		margin: 4px 0;
+	    .border-radius(5px);
+		.box-shadow(@boxShadow);
+		letter-spacing: .02em;
+		text-shadow: 1px 1px 3px fade(@brownDarkest, 70%);
+}
+
+.form-item-overlays-tcr-map-and-views-layers-tcr-affiliated-venues {
+	#gradient > .vertical(@orange, @orangeDarker);
+}
+.form-item-overlays-tcr-map-and-views-layers-tcr-affiliated-venues:hover,
+.form-item-overlays-tcr-map-and-views-layers-tcr-affiliated-venues:focus {
+	background-color: @orangeDarker;
+}
+
+.form-item-overlays-tcr-map-and-views-layers-tcr-waysides {
+	#gradient > .vertical(@green, @greenLight);
+}
+.form-item-overlays-tcr-map-and-views-layers-tcr-waysides:hover,
+.form-item-overlays-tcr-map-and-views-layers-tcr-waysides:focus {
+	background-color: @greenLight;
+}
+
+.form-item-overlays-tcr-map-and-views-layers-tcr-major-venues {
+	#gradient > .vertical(@brown, @brownDarkest);
+}
+.form-item-overlays-tcr-map-and-views-layers-tcr-major-venues:hover,
+.form-item-overlays-tcr-map-and-views-layers-tcr-major-venues:focus {
+	background-color: @brownDarkest;
+}
+
+#edit-overlays .form-item {
+	label {		
+		font-family: @condensedFamily;
+		color: @yellowLighter;
+	}
+}
+

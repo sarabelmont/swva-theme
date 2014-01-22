@@ -1,0 +1,495 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/overrides\.less}line{font-family:\0000332}}
+html.overlay-open .navbar-fixed-top {
+  z-index: 400;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/overrides\.less}line{font-family:\0000337}}
+html.js fieldset.collapsed {
+  height: auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/overrides\.less}line{font-family:\0000341}}
+html.js input.form-autocomplete {
+  background-position: 100% 8px;
+  /* LTR */
+
+  background-repeat: no-repeat;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/overrides\.less}line{font-family:\0000345}}
+html.js input.throbbing {
+  background-position: 100% -13px;
+  /* LTR */
+
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/overrides\.less}line{font-family:\0000353}}
+body,
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
+  line-height: 1.25;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/overrides\.less}line{font-family:\0000356}}
+body h2 {
+  margin-bottom: 0;
+}
+@media (max-width: 767px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/overrides\.less}line{font-family:\0000359}}
+  body {
+    position: relative;
+  }
+}
+@media (min-width: 980px) and (max-width: 1199px), (min-width: 1200px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/overrides\.less}line{font-family:\0000364}}
+  body {
+    padding-top: 0;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/overrides\.less}line{font-family:\0000368}}
+body.toolbar .navbar-fixed-top {
+  top: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/overrides\.less}line{font-family:\0000371}}
+body.toolbar-drawer .navbar-fixed-top {
+  top: 65px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/overrides\.less}line{font-family:\0000374}}
+body.admin-expanded.admin-vertical.admin-nw .navbar,
+body.admin-expanded.admin-vertical.admin-sw .navbar {
+  margin-left: 260px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/overrides\.less}line{font-family:\0000378}}
+body div#admin-toolbar {
+  z-index: 500;
+}
+@media (min-width: 980px) and (max-width: 1199px), (min-width: 1200px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/overrides\.less}line{font-family:\0000382}}
+  body.toolbar {
+    padding-top: 94px !important;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/overrides\.less}line{font-family:\0000385}}
+  body.toolbar-drawer {
+    padding-top: 129px !important;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/overrides\.less}line{font-family:\0000390}}
+body #admin-menu {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  z-index: 1100;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/overrides\.less}line{font-family:\0000396}}
+body #admin-menu .dropdown li {
+  line-height: normal;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/overrides\.less}line{font-family:\00003101}}
+html body.admin-menu {
+  margin-top: 28px !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/overrides\.less}line{font-family:\00003104}}
+body.admin-menu .navbar-fixed-top {
+  top: 28px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/overrides\.less}line{font-family:\00003109}}
+.footer {
+  margin-top: 40px;
+  padding: 35px 0 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/overrides\.less}line{font-family:\00003115}}
+.element-invisible {
+  margin: 0;
+  padding: 0;
+  width: 1px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/overrides\.less}line{font-family:\00003122}}
+.navbar .logo {
+  margin-top: 5px;
+  margin-right: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/overrides\.less}line{font-family:\00003126}}
+#site-name {
+  line-height: 1;
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/overrides\.less}line{font-family:\00003132}}
+.page-header {
+  margin-top: 0;
+  border-bottom: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/overrides\.less}line{font-family:\00003139}}
+.block h2.block-title {
+  margin-top: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/overrides\.less}line{font-family:\00003145}}
+form#search-block-form {
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/overrides\.less}line{font-family:\00003148}}
+.navbar #block-search-form {
+  float: right;
+  margin: 5px 0 5px 5px;
+}
+@media (max-width: 767px), (min-width: 768px) and (max-width: 979px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/overrides\.less}line{font-family:\00003151}}
+  .navbar #block-search-form {
+    float: none;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/overrides\.less}line{font-family:\00003155}}
+fieldset.search-advanced {
+  padding-bottom: 1.5em;
+  margin-top: 1em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/overrides\.less}line{font-family:\00003159}}
+.navbar-search .control-group {
+  margin-bottom: 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/overrides\.less}line{font-family:\00003164}}
+ul.action-links {
+  margin-bottom: 2em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/overrides\.less}line{font-family:\00003166}}
+ul.action-links li {
+  display: inline;
+  padding-right: 1.5em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/overrides\.less}line{font-family:\00003170}}
+ul.action-links [class^="icon-"],
+ul.action-links [class*=" icon-"] {
+  padding-right: 0.5em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/overrides\.less}line{font-family:\00003176}}
+fieldset {
+  border: 1px solid #000;
+  padding: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/overrides\.less}line{font-family:\00003180}}
+legend {
+  color: #000;
+  font-size: 21px;
+  line-height: 1;
+  border: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/overrides\.less}line{font-family:\00003186}}
+input,
+textarea,
+select,
+.uneditable-input {
+  max-width: 100%;
+  width: auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/overrides\.less}line{font-family:\00003190}}
+select,
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+.uneditable-input {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  height: auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/overrides\.less}line{font-family:\00003194}}
+input.error {
+  color: #b94a48;
+  border-color: #eed3d7;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/overrides\.less}line{font-family:\00003198}}
+.form-type-checkbox input,
+.form-type-radio input {
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/overrides\.less}line{font-family:\00003201}}
+.form-actions {
+  clear: both;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/overrides\.less}line{font-family:\00003204}}
+.resizable-textarea textarea {
+  -webkit-border-radius: 4px 4px 0 0;
+  -moz-border-radius: 4px 4px 0 0;
+  border-radius: 4px 4px 0 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/overrides\.less}line{font-family:\00003207}}
+.help-block,
+.control-group .help-inline {
+  color: #999999;
+  font-size: 12px;
+  margin: 2px 0 10px;
+  padding: 0 3px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/overrides\.less}line{font-family:\00003212}}
+.description + .help-block,
+.description + .control-group .help-inline,
+.checkbox + .help-block,
+.checkbox + .control-group .help-inline,
+.form-type-checkbox + .help-block,
+.form-type-checkbox + .control-group .help-inline,
+.form-type-radio + .help-block,
+.form-type-radio + .control-group .help-inline,
+.form-file + .help-block,
+.form-file + .control-group .help-inline,
+.resizable-textarea + .help-block,
+.resizable-textarea + .control-group .help-inline {
+  margin-top: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/overrides\.less}line{font-family:\00003222}}
+.input-append {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-right: 40px;
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/overrides\.less}line{font-family:\00003226}}
+.input-append input,
+.input-append textarea,
+.input-append select,
+.input-append .uneditable-input {
+  width: 100% !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/overrides\.less}line{font-family:\00003230}}
+.views-exposed-form label {
+  font-weight: bold;
+  font-size: .875em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/overrides\.less}line{font-family:\00003235}}
+.views-exposed-form .views-exposed-widget .form-submit {
+  margin-top: 1.3em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/overrides\.less}line{font-family:\00003240}}
+#edit-field-date-of-event-value-min-wrapper,
+#edit-field-date-of-event-value-max-wrapper {
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/overrides\.less}line{font-family:\00003244}}
+.container-inline-date > .form-item {
+  margin-right: 1em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/overrides\.less}line{font-family:\00003247}}
+.container-inline-date .form-item,
+.container-inline-date .form-item input {
+  width: 130px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/overrides\.less}line{font-family:\00003251}}
+.views-exposed-widgets .form-item input {
+  width: 170px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/overrides\.less}line{font-family:\00003256}}
+.chosen-container-single .chosen-single {
+  font-weight: normal;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/overrides\.less}line{font-family:\00003259}}
+.form-select .chosen-single,
+.form-select .chosen-drop {
+  padding: 0.1em 0 0.2em 0.5em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/overrides\.less}line{font-family:\00003266}}
+.container-inline div,
+.container-inline label {
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/overrides\.less}line{font-family:\00003271}}
+div.error,
+table tr.error {
+  background-color: #f2dede;
+  color: #b94a48;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/overrides\.less}line{font-family:\00003276}}
+.control-group.error {
+  background: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/overrides\.less}line{font-family:\00003278}}
+.control-group.error label,
+.control-group.error .control-label {
+  color: #b94a48;
+  font-weight: 600;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/overrides\.less}line{font-family:\00003282}}
+.control-group.error input,
+.control-group.error textarea,
+.control-group.error select,
+.control-group.error .uneditable-input {
+  color: #b94a48;
+  border: 1px solid #cccccc;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/overrides\.less}line{font-family:\00003286}}
+.control-group.error .help-block,
+.control-group.error .help-inline {
+  color: #999999;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/overrides\.less}line{font-family:\00003292}}
+ul li.collapsed,
+ul li.expanded,
+ul li.leaf {
+  list-style: none;
+  list-style-image: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/overrides\.less}line{font-family:\00003301}}
+.vertical-tabs .form-type-textfield input {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+  width: auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/overrides\.less}line{font-family:\00003305}}
+.vertical-tabs .form-item {
+  margin: 1em 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/overrides\.less}line{font-family:\00003311}}
+.submitted {
+  margin-bottom: 1em;
+  font-style: italic;
+  font-weight: normal;
+  color: #777;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/overrides\.less}line{font-family:\00003319}}
+.password-strength {
+  width: 17em;
+  float: right;
+  /* LTR */
+
+  margin-top: 1.4em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/overrides\.less}line{font-family:\00003324}}
+.password-strength-title {
+  display: inline;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/overrides\.less}line{font-family:\00003327}}
+.password-strength-text {
+  float: right;
+  /* LTR */
+
+  font-weight: bold;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/overrides\.less}line{font-family:\00003331}}
+.password-indicator {
+  background-color: #e9e9e9;
+  height: 0.3em;
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/overrides\.less}line{font-family:\00003335}}
+.password-indicator div {
+  height: 100%;
+  width: 0%;
+  background-color: #46a546;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/overrides\.less}line{font-family:\00003341}}
+input.password-confirm,
+input.password-field {
+  width: 16em;
+  margin-bottom: 0.4em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/overrides\.less}line{font-family:\00003346}}
+div.password-confirm {
+  float: right;
+  /* LTR */
+
+  margin-top: 1.5em;
+  visibility: hidden;
+  width: 17em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/overrides\.less}line{font-family:\00003352}}
+div.form-item div.password-suggestions {
+  padding: 0.2em 0.5em;
+  margin: 0.7em 0;
+  width: 38.5em;
+  border: 1px solid #B4B4B4;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/overrides\.less}line{font-family:\00003358}}
+div.password-suggestions ul {
+  margin-bottom: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/overrides\.less}line{font-family:\00003361}}
+.confirm-parent,
+.password-parent {
+  clear: left;
+  /* LTR */
+
+  margin: 0;
+  width: 36.3em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/overrides\.less}line{font-family:\00003369}}
+.progress-wrapper .progress {
+  margin-bottom: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/overrides\.less}line{font-family:\00003371}}
+.progress-wrapper .progress .bar {
+  border: 0 none;
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/overrides\.less}line{font-family:\00003379}}
+.pagination ul > li > a.progress-disabled {
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/overrides\.less}line{font-family:\00003382}}
+.pagination ul > li > a .throbber {
+  margin: 0 -0.25em 0 0.5em;
+  position: relative;
+  top: 1px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/overrides\.less}line{font-family:\00003390}}
+.pager li > a,
+.pager li > span {
+  display: inline-block;
+  padding: 5px 14px;
+  background-color: transparent;
+  border: none;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/overrides\.less}line{font-family:\00003398}}
+.pager li > a:hover,
+.pager li > a:focus {
+  text-decoration: none;
+  background-color: transparent;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/overrides\.less}line{font-family:\00003403}}
+.pager .next > a,
+.pager .next > span {
+  float: right;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/overrides\.less}line{font-family:\00003407}}
+.pager .previous > a,
+.pager .previous > span {
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/overrides\.less}line{font-family:\00003411}}
+.pager .disabled > a,
+.pager .disabled > a:hover,
+.pager .disabled > a:focus,
+.pager .disabled > span {
+  color: #999999;
+  background-color: transparent;
+  cursor: default;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/overrides\.less}line{font-family:\00003421}}
+ul.unstyled,
+ol.unstyled {
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/overrides\.less}line{font-family:\00003429}}
+.date-nav {
+  padding-bottom: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/overrides\.less}line{font-family:\00003434}}
+figure {
+  margin: 0;
+  padding: 0;
+}

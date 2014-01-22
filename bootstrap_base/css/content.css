@@ -1,0 +1,28 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/content\.less}line{font-family:\000036}}
+.row-primary .row-fluid [class*="span"] {
+  margin-left: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/content\.less}line{font-family:\000039}}
+.row-primary .container {
+  height: 320px;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/content\.less}line{font-family:\0000313}}
+.row-primary .container .span4 {
+  padding-left: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/content\.less}line{font-family:\0000319}}
+.block-container {
+  margin-top: 30px;
+  padding: 0 20px 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/content\.less}line{font-family:\0000325}}
+.geofield-proximity-field-wrapper .geofield-proximity-origin-from,
+.geofield-proximity-field-wrapper .form-item-field-geofield-distance-origin,
+.geofield-proximity-field-wrapper .form-item-field-geofield-distance-1-origin {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Zend\/Apache2\/htdocs\/swva-rtm\/sites\/all\/themes\/bootstrap_base\/less\/content\.less}line{font-family:\0000333}}
+.flag-wrapper {
+  float: right;
+}

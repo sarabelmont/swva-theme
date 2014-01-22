@@ -1,0 +1,477 @@
+// BASE OVERRIDES
+
+// Bootstrap variables.
+@import 'variables.less';
+
+// Media query variables.
+@mobile:  ~"(max-width: 767px)";
+@tablet:  ~"(min-width: 768px) and (max-width: 979px)";
+@normal:  ~"(min-width: 980px) and (max-width: 1199px)";
+@wide:    ~"(min-width: 1200px)";
+
+// Border Radius
+.border-radius(@radius) {
+  -webkit-border-radius: @radius;
+     -moz-border-radius: @radius;
+          border-radius: @radius;
+}
+// Drop shadows.
+.box-shadow(@shadow) {
+  -webkit-box-shadow: @shadow;
+     -moz-box-shadow: @shadow;
+          box-shadow: @shadow;
+}
+// Box sizing.
+.box-sizing(@boxmodel) {
+  -webkit-box-sizing: @boxmodel;
+     -moz-box-sizing: @boxmodel;
+          box-sizing: @boxmodel;
+}
+
+html {
+  &.overlay-open .navbar-fixed-top {
+    z-index: 400;
+  }
+  &.js {
+    // Collapsible fieldsets.
+    fieldset.collapsed {
+     height: auto;
+    }
+    // Throbbers.
+    input.form-autocomplete {
+      background-position: 100% 8px; /* LTR */
+      background-repeat: no-repeat;
+    }
+    input.throbbing {
+      background-position: 100% -13px; /* LTR */
+    }
+  }
+}
+body {
+  // Bootstrap manually sets line heights, this should be relative (em) to the
+  // font size, not manually set.
+  &, h1, h2, h3, h4, h5, h6 {
+    line-height: 1.25;
+  }
+  h2 {
+	  margin-bottom: 0;
+  }
+  @media @mobile {
+    // Fix horizontal scrolling on iOS devices.
+    // http://drupal.org/node/1870076
+    position: relative;
+  }
+  @media @normal, @wide {
+    padding-top: 0;
+  }
+  // Core admin toolbar.
+  &.toolbar .navbar-fixed-top {
+   top: 30px;
+  }
+  &.toolbar-drawer .navbar-fixed-top {
+   top: 65px;
+  }
+  &.admin-expanded.admin-vertical.admin-nw .navbar,
+  &.admin-expanded.admin-vertical.admin-sw .navbar {
+    margin-left: 260px;
+  }
+  div#admin-toolbar {
+    z-index: 500;
+  }
+  @media @normal, @wide {
+    &.toolbar {
+      padding-top: 94px !important;
+    }
+    &.toolbar-drawer {
+      padding-top: 129px !important;
+    }
+  }
+  // Admin_menu toolbar.
+  #admin-menu {
+    .box-shadow(none);
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    z-index: 1100;
+    .dropdown li {
+      line-height: normal;
+    }
+  }
+  &.admin-menu {
+    html & {
+      margin-top: 28px !important;
+    }
+    .navbar-fixed-top {
+      top: 28px;
+    }
+  }
+}
+.footer {
+  margin-top: 40px;
+  padding: 35px 0 0;
+}
+
+// Element invisible fix
+.element-invisible {
+  margin: 0;
+  padding: 0;
+  width: 1px;
+}
+
+// Branding.
+.navbar .logo {
+  margin-top: 5px;
+  margin-right: 10px;
+}
+#site-name {
+  line-height: 1;
+  margin: 0;
+}
+
+// Page header.
+.page-header {
+  margin-top: 0;
+ border-bottom: none;
+}
+
+// Blocks
+.block {
+  h2.block-title {
+    margin-top: 0;
+  }
+}
+
+// Search form.
+form#search-block-form {
+  margin: 0;
+}
+.navbar #block-search-form {
+  float: right;
+  margin: 5px 0 5px 5px;
+  @media @mobile, @tablet {
+    float: none;
+  }
+}
+fieldset.search-advanced {
+  padding-bottom: 1.5em;
+  margin-top: 1em;
+}
+.navbar-search .control-group {
+  margin-bottom:0px;
+}
+
+// Action Links
+ul.action-links {
+  margin-bottom: 2em;
+  li {
+    display: inline;
+    padding-right: 1.5em;
+  }
+  [class^="icon-"], [class*=" icon-"] {
+    padding-right: 0.5em;
+  }
+}
+
+// Form elements.
+
+fieldset {
+	border: 1px solid #000;
+	padding: 20px;
+}
+legend {
+    color: #000;
+    font-size: 21px;
+    line-height: 1;
+	border: none;
+}
+input, textarea, select, .uneditable-input {
+  max-width: 100%;
+  width: auto;
+}
+select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+  .box-sizing(border-box);
+  height: auto;
+}
+input.error {
+  color: @errorText;
+  border-color: @errorBorder;
+}
+.form-type-checkbox input, .form-type-radio input {
+  float: left;
+}
+.form-actions{
+  clear: both;
+}
+.resizable-textarea textarea {
+  .border-radius(~"4px 4px 0 0");
+}
+.help-block, .control-group .help-inline {
+  color: @placeholderText;
+  font-size: 12px;
+  margin: 2px 0 10px;
+  padding: 0 3px;
+  .description + &,
+  .checkbox + &,
+  .form-type-checkbox + &,
+  .form-type-radio + &,
+  .form-file + &,
+  .resizable-textarea + & {
+    margin-top: 0;
+  }
+}
+
+.input-append {
+  .box-sizing(border-box);
+  padding-right: 40px;
+  width: 100%;
+  input, textarea, select, .uneditable-input {
+    width: 100% !important;
+  }
+}
+
+.webform-client-form {
+	
+	margin-top: 20px;
+	
+	.form-item {
+		margin-bottom: 15px;
+		
+		label {
+			margin-bottom: 0;
+		}
+	}
+}
+
+#edit-field-date-of-event-value-min-wrapper,
+#edit-field-date-of-event-value-max-wrapper {
+    float: left;
+}
+.container-inline-date > .form-item {
+	margin-right: 1em;
+}
+.container-inline-date .form-item,
+.container-inline-date .form-item input {
+	width: 130px;
+}
+.views-exposed-widgets .form-item input {
+	width: 170px;
+	margin-right: 10px;
+}
+
+.form-textarea-wrapper {
+	width: 400px;
+}
+.panel-right .container {
+	width: 100%; /*prevent the container class from applying a fixed width and breaking the layout */
+}
+
+// CHOSEN OVERRIDES and ADDITIONS
+.chosen-container-single .chosen-single {
+	font-weight: normal;
+}
+.form-select .chosen-single,
+.form-select .chosen-drop {
+	padding: 0.1em 0 0.2em 0.5em;
+	margin-right: 10px;
+}
+.chosen-container {
+	width: 100% !important;
+}
+.chosen-container.chosen-with-drop .chosen-drop {
+		width: 200px;
+}
+
+
+// Inline containers.
+.container-inline div, .container-inline label {
+  display: block;
+}
+
+// Error containers.
+div.error,
+table tr.error {
+  background-color: @errorBackground;
+  color: @errorText;
+}
+.control-group.error {
+  background: none;
+  label, .control-label {
+    color: @errorText;
+    font-weight: 600;
+  }
+  input, textarea, select, .uneditable-input {
+    color: @errorText;
+    border: 1px solid @inputBorder;
+  }
+  .help-block, .help-inline {
+    color: @placeholderText;
+  }
+}
+
+// Lists
+li {
+	margin-left: 20px;
+}
+ul li.collapsed,
+ul li.expanded,
+ul li.leaf {
+  list-style: none;
+  list-style-image: none;
+  margin-left: 0;
+}
+
+// Vertical tabs.
+.vertical-tabs {
+  .form-type-textfield input {
+    .box-sizing(inherit);
+    width: auto;
+  }
+  .form-item{
+    margin: 1em 0;
+  }
+}
+
+// Submitted
+.submitted {
+  margin-bottom: 1em;
+  font-style: italic;
+  font-weight: normal;
+  color: #777;
+}
+
+// Password strength indicator.
+.password-strength {
+  width: 17em;
+  float: right;  /* LTR */
+  margin-top: 1.4em;
+}
+.password-strength-title {
+  display: inline;
+}
+.password-strength-text {
+  float: right; /* LTR */
+  font-weight: bold;
+}
+.password-indicator {
+  background-color: darken(@grayLighter, 2%);
+  height: 0.3em;
+  width: 100%;
+  div {
+    height: 100%;
+    width: 0%;
+    background-color: @green;
+  }
+}
+input.password-confirm,
+input.password-field {
+  width: 16em;
+  margin-bottom: 0.4em;
+}
+div.password-confirm {
+  float: right;  /* LTR */
+  margin-top: 1.5em;
+  visibility: hidden;
+  width: 17em;
+}
+div.form-item div.password-suggestions {
+  padding: 0.2em 0.5em;
+  margin: 0.7em 0;
+  width: 38.5em;
+  border: 1px solid #B4B4B4;
+}
+div.password-suggestions ul {
+  margin-bottom: 0;
+}
+.confirm-parent,
+.password-parent {
+  clear: left; /* LTR */
+  margin: 0;
+  width: 36.3em;
+}
+
+// Progress bar.
+.progress-wrapper .progress {
+  margin-bottom: 10px;
+  .bar {
+    border: 0 none;
+    margin: 0;
+  }
+}
+
+// Views AJAX pager.
+.pagination ul > li > a {
+  &.progress-disabled {
+    float: left;
+  }
+  .throbber {
+    margin: 0 -0.25em 0 0.5em;
+    position: relative;
+    top: 1px;
+  }
+}
+
+// Views DEFAULT pager
+.pager li > a,
+.pager li > span {
+  display: inline-block;
+  .ie7-inline-block();
+  padding: 5px 14px;
+  background-color: transparent;
+  border: none;
+  .border-radius(15px);
+}
+.pager li > a:hover,
+.pager li > a:focus {
+  text-decoration: none;
+  background-color: transparent;
+}
+.pager .next > a,
+.pager .next > span {
+  float: right;
+}
+.pager .previous > a,
+.pager .previous > span {
+  float: left;
+}
+.pager .disabled > a,
+.pager .disabled > a:hover,
+.pager .disabled > a:focus,
+.pager .disabled > span {
+  color: @grayLight;
+  background-color: transparent;
+  cursor: default;
+}
+
+// LAYOUT OVERRIDES
+ul.unstyled,
+ol.unstyled {
+	margin: 0;
+}
+
+
+// CALENDAR
+// Mini Calendar
+.date-nav {
+padding-bottom: 0;
+}
+
+// IMAGES
+figure {
+	margin: 0;
+	padding: 0;
+}
+
+select {
+	height: auto;
+	line-height: 1.25;
+}
+
+// TEXT
+
+p {
+	margin: 0 0 1.25em;
+}
+
+
+
+

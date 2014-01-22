@@ -1,0 +1,47 @@
+// Media query variables.
+@mobile:  ~"(max-width: 767px)";
+@tablet:  ~"(min-width: 768px) and (max-width: 979px)";
+@normal:  ~"(min-width: 980px) and (max-width: 1199px)";
+@wide:    ~"(min-width: 1200px)";
+
+
+// Bootstrap library.
+@import '../../bootstrap_base/less/bootstrap.less';
+@import 'responsive.less';
+
+// Base-theme overrides.
+@import 'overrides.less';
+
+// Theme specific.
+@import 'header.less';
+@import 'content.less';
+@import 'footer.less';
+@import 'nav.less';
+
+
+html, body{
+    /* any div up to fullscreen-cont must have this
+    in this case html and body */
+    height:100%;
+    min-height:100%;
+    margin:0;
+}
+.fs-container {
+    display:block;
+	position:relative;
+    min-width:100%;
+    margin-bottom:2px;
+}
+.fs-img {
+    display:block;
+	position:absolute;
+	z-index:-1;
+    min-width:100%;
+    min-height:100%;
+    background:transparent url('../images/bkg-min.jpg') center center no-repeat;
+    background-size:cover;
+	opacity: 0.5;
+}
+
+
+

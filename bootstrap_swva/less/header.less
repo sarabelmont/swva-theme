@@ -1,0 +1,71 @@
+// SWVA
+// Insert your styling here.
+.top-navbar-inner {
+  background-color: @topNavBackground;
+}
+
+// TOP NAV Links
+.navbar .top-navbar-inner .nav > li  {
+  background-color: lighten(@topNavBackground, 25%);
+  color: @navbarLinkColor;
+  height: @topNavHeight;
+}
+
+.navbar .top-navbar-inner .nav > li > a {
+  color: @navbarLinkColor;
+}
+.navbar .top-navbar-inner .nav > li.swva {
+	background-color: lighten(@topNavBackground, 25%);
+}
+.navbar .top-navbar-inner .nav > li.rtm {
+	background-color: lighten(@topNavBackground, 10%);
+}
+.navbar .top-navbar-inner .nav > li.tcr {
+	background-color: lighten(@topNavBackground, 10%);
+}
+
+// HEADER LINKS
+.header-container {
+	.navbar .nav > li > a {
+		color: @blueDarker;
+		font-family: @gothamFamily;
+		font-size: .9em;
+		text-shadow: 0 1px 1px rgba(0,0,0,.5);
+	}
+	.navbar .nav > li > a:focus,
+	.navbar .nav > li > a:hover {
+		color: @white;
+	}
+	.navbar .nav > .active > a, 
+	.navbar .nav > .active > a:hover, 
+	.navbar .nav > .active > a:focus {
+		color: @blueDarker;
+	}
+}
+
+// MAIN MENU
+.tb-megamenu .nav li.dropdown > .dropdown-toggle .caret {
+	@media only screen and (max-width: 979px) {
+		display: none;
+	}
+}
+
+.navbar .tb-megamenu .nav > li > a {
+	@media only screen and (min-width: 320px) {
+		padding-left: 12px;
+		padding-right: 12px;
+		text-transform: capitalize;
+		letter-spacing: 0;
+		font-size: 1.1em;
+	}
+	@media only screen and (min-width: 979px) {
+		padding: 15px 14px;
+		text-transform: uppercase;
+		letter-spacing: .05em;
+		font-size: 1.1em;
+	}
+	@media only screen and (min-width: 1200px) {
+		padding: 15px 25px;
+		font-size: 1.1em;
+	}
+}

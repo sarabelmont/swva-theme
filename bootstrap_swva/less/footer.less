@@ -1,0 +1,73 @@
+// SWVA
+// Insert your styling here.
+
+//variables
+// -------------------------
+@footerBackground:	@blueDarker;
+
+
+// styles
+// -------------------------
+.footer-main {
+	background-color: @footerBackground;	
+}
+
+.footer {
+	color: @grayDark;
+	
+	h3 {
+		color: @teal;
+		font-family: "Gotham SSm 3r", "Gotham SSm A", "Gotham SSm B", Helvetica, Arial, sans-serif;
+		font-weight: 300;
+	}
+	a {
+		color: @blueLight;
+	}
+	
+	.footer-nav {
+		background-color: transparent;
+		
+		h3 {
+			color: @teal;
+		}
+		a, p {
+			color: @gray;
+		}
+		ul {
+
+		}
+	}
+	
+	.footer-bottom {
+		color: @grayDark;
+	
+		a {
+			color: @blueLight;
+		}
+	}
+	
+	.footer-bottom {
+		background-color: @grayLight;	
+	}
+}
+
+.footer-block {
+	background-color: lighten(@footerBackground, 10%);
+	margin: 40px 0;
+	padding-top: 0;
+	.border-radius(10px);
+	
+	h3 {
+		color: @grayLight;
+	}
+
+	ul li {
+		background-color: @grayLight;
+		.border-radius(10px);
+	}
+	a {
+		color: @blueLight;
+	}
+}
+
+

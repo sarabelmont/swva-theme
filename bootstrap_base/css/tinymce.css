@@ -1,0 +1,66 @@
+/* overrides TinyMCE's default configuration */
+
+/* make the font in textareas legible */
+body.mceContentBody {
+    font-size:1em;
+    background-color:#fff;
+    padding:5px;
+    line-height:135%;
+}
+h1, h2 {
+	font-weight: normal;
+}
+h2 {
+	font-size: 1.6em;
+	font-weight: bold;
+	line-height: 1.25em;
+	margin-bottom: 15px;
+}
+
+h3 {
+	font-size: 1.3em;
+}
+h4 {
+	font-size: 1em;
+	font-weight: bold;
+}
+h2, h3, h4 {
+	margin-top: 1.5em;
+}
+ul, ol {
+	list-style-position: outside;
+	margin-left: 8%;
+}
+ol li {
+	padding: 5px 0 5px 10px;
+	margin-right: 20px;
+}
+ul {
+	list-style-type: square;
+}
+li {
+	padding: 0 0 5px 10px;
+}
+blockquote {
+	font-size: 1.25em;
+}
+img {
+	border: solid 1px #ccc;
+	background-color: #fff;
+	padding: 5px;
+}
+/* add padding to inline images that don't have captions */
+.field-name-body img {
+	float: right;
+	margin: 10px 20px;
+}
+/* reset for images that do have captions */
+.field-name-body .caption img {
+	float: none;
+	margin: 0;
+}
+.field-name-body .caption {
+	font-size: 0.9em;
+	padding: 5px;
+	margin: 20px 0;
+}

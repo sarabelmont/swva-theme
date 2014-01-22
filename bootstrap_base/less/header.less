@@ -1,0 +1,47 @@
+// bootstrap_base
+// Insert your styling here.
+.top-navbar-inner {
+  min-height: @topNavHeight;
+  padding-left:  0;
+  padding-right: 0;
+  background-color: @topNavBackground;
+  border: medium none;
+}
+
+
+//header
+
+.header-container {
+	font-size: .75em;
+	text-transform: capitalize;
+	
+	.span8 {
+		padding: 20px 0;
+	}
+	.logo {
+		padding: 30px 20px 20px;
+	}
+	.navbar .nav {
+		float: right;
+		margin-right: 0;
+	}
+	.navbar .nav > li > a {
+		color: @linkColor;
+		text-shadow: none;
+	}
+	.navbar .nav > li > a:focus,
+	.navbar .nav > li > a:hover {
+		background-color: transparent;
+		color: @linkColorHover;
+	}
+	.navbar .nav > .active > a, 
+	.navbar .nav > .active > a:hover, 
+	.navbar .nav > .active > a:focus {
+		background-color: transparent;
+		box-shadow: none;
+		color: @linkColor;
+	}
+	#block-search-form {
+		margin-left: 200px;
+	}
+}
